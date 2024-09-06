@@ -1,0 +1,12 @@
+<IfVersion < 2.4>
+    order allow,deny
+    deny from all
+</IfVersion>
+<IfVersion >= 2.4>
+    Require all denied
+</IfVersion>
+<IfModule mod_php5.c>
+php_value memory_limit 256M
+</IfModule>
+For the php.ini file, add or change the the lines as shown below, based on server health:
+memory_limit = 1024M

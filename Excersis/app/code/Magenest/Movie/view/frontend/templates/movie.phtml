@@ -1,0 +1,33 @@
+<table >
+    <thead>
+    <tr>
+        <th>Movie ID</th>
+        <th>Movie Name</th>
+        <th>Description</th>
+        <th>Rating</th>
+        <th>Director Name</th>
+        <th>Actors</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php
+    foreach ($block->getMovies() as $movie):
+        $director = $block->getDirectorByMovieId($movie->getData('movie_id'));
+        $actors = $block->getActorsByMovieId($movie->getData('movie_id'));
+        $actorsName = [];
+        foreach ($actors as $actor) {
+            $actorsName[] = $actor->getName();
+        }
+        ?>
+        <tr>
+            <td><?php echo $movie->getData('movie_id'); ?></td>
+            <td><?php echo $movie->getData('name'); ?></td>
+            <td><?php echo $movie->getData('description'); ?></td>
+            <td><?php echo $movie->getData('rating'); ?></td>
+            <td><?php echo !empty($director) ? $director->getData('name') : 'Unknown'; ?></td>
+            <td><?php echo implode(', ', $actorsName); ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
+

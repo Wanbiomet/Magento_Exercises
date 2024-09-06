@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout.xsd">
+    <head>
+        <title>Movie List 2</title>
+    </head>
+    <referenceBlock name="sidebar.additional" remove="true" />
+    <referenceContainer name="content">
+        <block class="Magenest\Movie\Block\MovieIndex" name="movie_block" template="Magenest_Movie::movie.phtml"/>
+    </referenceContainer>
+</layout>
