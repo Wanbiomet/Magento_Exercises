@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <movie>
+            <magenest_movie>
+                <movie_field>“I’m a text field”</movie_field>
+                <is_enabled>Yes</is_enabled>
+                <custome_select>1</custome_select>
+            </magenest_movie>
+        </movie>
+    </default>
+</config>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">movie_new_form.movie_new_form_data_source</item>
+        </item>
+        <item name="label" xsi:type="string" translate="true">Movie</item>
+        <item name="config" xsi:type="array">
+            <item name="dataScope" xsi:type="string">data</item>
+            <item name="namespace" xsi:type="string">movie_new_form</item>
+        </item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+    </argument>
+    <settings>
+        <buttons>
+            <button name="save" class="Magenest\Movie\Block\Adminhtml\Form\SaveButton"/>
+<!--            <button name="reset" class="Magenest\MyForm\Block\Adminhtml\Form\Edit\ResetButton"/>-->
+            <button name="delete" class="Magenest\Movie\Block\Adminhtml\Form\Edit\DeleteButton"/>
+            <button name="back" class="Magenest\Movie\Block\Adminhtml\Form\Edit\BackButton"/>
+        </buttons>
+        <namespace>magenest_form</namespace>
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>movie_new_form.movie_new_form_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="movie_new_form_data_source">
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <settings>
+            <submitUrl path="*/*/save"/>
+        </settings>
+        <dataProvider class="Magenest\Movie\Model\System\Config\MovieProvider" name="movie_new_form_data_source">
+            <settings>
+                <!-- param url name -->
+                <requestFieldName>id</requestFieldName>
+                <!-- keys id -->
+                <primaryFieldName>movie_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+
+    <fieldset name="movie_new_form_fieldset">
+        <settings>
+            <collapsible>false</collapsible>
+            <label>Movie</label>
+        </settings>
+        <field name="id" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">movie_new_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>false</visible>
+                <dataScope>id</dataScope>
+                <label>Id</label>
+            </settings>
+        </field>
+        <field name="name" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">movie_new_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>name</dataScope>
+                <label>Name</label>
+            </settings>
+        </field>
+        <field name="description" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">movie_new_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>description</dataScope>
+                <label>Description</label>
+            </settings>
+        </field>
+        <field name="rating" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">movie_new_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>int</dataType>
+                <visible>true</visible>
+                <dataScope>rating</dataScope>
+                <label>Rating</label>
+            </settings>
+        </field>
+        <field name="director_id" formElement="select">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">movie_new_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>select</dataType>
+                <visible>true</visible>
+                <dataScope>director_id</dataScope>
+                <label>Director</label>
+            </settings>
+            <formElements>
+                <select>
+                    <settings>
+                        <options class="Magenest\Movie\Model\System\Config\Source\DirectorOptions"/>
+                        <caption translate="true">-- Please Select --</caption>
+                    </settings>
+                </select>
+            </formElements>
+        </field>
+    </fieldset>
+</form>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">magenest_movie_actor_listing.magenest_movie_actor_listing_data_source</item>
+        </item>
+    </argument>
+    <settings>
+        <spinner>magenest_movie_actor_columns</spinner>
+        <buttons>
+            <button name="add" >
+                <class>primary</class>
+                <url path="*/*/create" />
+                <label translate="true">Add New Movie</label>
+            </button>
+        </buttons>
+        <deps>
+            <dep>magenest_movie_actor_listing.magenest_movie_actor_listing_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="magenest_movie_actor_listing_data_source" component="Magento_Ui/js/grid/provider">
+        <settings>
+            <updateUrl path="mui/index/render"/>
+            <storageConfig>
+                <param name="indexField" xsi:type="string">movie_id</param>
+            </storageConfig>
+        </settings>
+        <!--        <aclResource>Magenest_Movie::listing</aclResource>-->
+        <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="magenest_movie_actor_listing_data_source">
+            <settings>
+                <requestFieldName>id</requestFieldName>
+                <primaryFieldName>movie_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+    <columns name="magenest_movie_actor_columns">
+        <selectionsColumn name="ids">
+            <settings>
+                <indexField>movie_id</indexField>
+            </settings>
+        </selectionsColumn>
+        <!-- Cột Movie Name -->
+        <column name="name">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">Movie Name</label>
+            </settings>
+        </column>
+
+        <!-- Cột Actor Names -->
+<!--        <column name="actor_name">-->
+<!--            <settings>-->
+<!--                <filter>text</filter>-->
+<!--                <label translate="true">Actors</label>-->
+<!--            </settings>-->
+<!--        </column>-->
+<!--        <column name="movie_id" component="Magento_Ui/js/grid/columns/select"  sortOrder="50">-->
+<!--            <settings>-->
+<!--                <options class="Magenest\Movie\Model\System\Config\Source\Movie"/>-->
+<!--                <filter>select</filter>-->
+<!--                <dataType>select</dataType>-->
+<!--                <label translate="true">Movie</label>-->
+<!--            </settings>-->
+<!--        </column>-->
+        <column name="actor_id" component="Magento_Ui/js/grid/columns/select"  sortOrder="60">
+            <settings>
+                <options class="Magenest\Movie\Model\System\Config\Source\Actor"/>
+                <filter>select</filter>
+                <dataType>select</dataType>
+                <label translate="true">Actor</label>
+            </settings>
+        </column>
+<!--        <actionsColumn name="actions" class="Magenest\Movie\UI\Component\Listing\Column\Actions">-->
+<!--            <settings>-->
+<!--                <indexField>movie_id</indexField>-->
+<!--            </settings>-->
+<!--        </actionsColumn>-->
+    </columns>
+    <!-- ... other block of code -->
+    <listingToolbar name="listing_top">
+        <!--        <settings>-->
+        <!--        <sticky>true</sticky>-->
+        <!--        </settings>-->
+        <!--        <bookmark name="bookmarks"/>-->
+        <!--        <exportButton name="export_button"/>-->
+        <!--        <columnsControls name="columns_controls"/>-->
+        <filters name="listing_filters">
+        </filters>
+        <paging name="listing_paging"/>
+        <massaction name="listing_massaction">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="component" xsi:type="string">Magento_Ui/js/grid/tree-massactions</item>
+                </item>
+            </argument>
+            <action name="delete">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">delete</item>
+                        <item name="label" xsi:type="string" translate="true">Delete</item>
+                        <item name="url" xsi:type="url" path="*/*/delete"/>
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Delete Row</item>
+                            <item name="message" xsi:type="string" translate="true">Are you sure you wan't to delete selected items?</item>
+                        </item>
+                    </item>
+                </argument>
+                <argument name="actions" xsi:type="array">
+                    <item name="0" xsi:type="array">
+                        <item name="type" xsi:type="string">sub_action1</item>
+                        <item name="label" xsi:type="string" translate="true">Sub action #1</item>
+                        <item name="url" xsi:type="url" path="movie/post/deletemovie">
+                            <param name="some_param">1</param>
+                        </item>
+                    </item>
+                    <item name="1" xsi:type="array">
+                        <item name="type" xsi:type="string">sub_action2</item>
+                        <item name="label" xsi:type="string" translate="true">Sub action #2</item>
+                        <item name="url" xsi:type="url" path="some/path">
+                            <param name="some_param">2</param>
+                        </item>
+                    </item>
+                    <item name="2" xsi:type="array">
+                        <item name="type" xsi:type="string">sub_action3</item>
+                        <item name="label" xsi:type="string" translate="true">Sub action #3</item>
+                        <item name="url" xsi:type="url" path="some/path">
+                            <param name="some_param">3</param>
+                        </item>
+                    </item>
+                </argument>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
