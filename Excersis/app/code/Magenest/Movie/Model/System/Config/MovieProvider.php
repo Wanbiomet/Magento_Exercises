@@ -8,6 +8,7 @@ class MovieProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 
     protected $_loadedData;
     protected $collection;
+    protected $request;
     /**
      * @param string $name
      * @param string $primaryFieldName
@@ -38,9 +39,7 @@ class MovieProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
         if (isset($this->_loadedData)) {
             return $this->_loadedData;
         }
-        $this->collection->joinTable();
         $items = $this->collection->getItems();
-
         foreach ($items as $item) {
             $this->_loadedData[$item->getId()] = $item->getData();
         }

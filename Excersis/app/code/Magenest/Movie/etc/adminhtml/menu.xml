@@ -35,14 +35,5 @@
             action="movie/actor/"
             resource="Magenest_Movie::actor"
         />
-        <add
-            id="Magenest_Movie::movie_actor"
-            title="Movie Actor"
-            module="Magenest_Movie"
-            sortOrder="60"
-            parent="Magenest_Movie::movieP"
-            action="movie/movieactor/"
-            resource="Magenest_Movie::movie_actor"
-        />
     </menu>
 </config>

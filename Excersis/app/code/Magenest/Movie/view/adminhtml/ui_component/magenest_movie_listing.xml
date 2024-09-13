@@ -33,61 +33,14 @@
             </settings>
         </dataProvider>
     </dataSource>
-    <columns name="magenest_movie_columns">
-        <selectionsColumn name="ids">
-            <settings>
-                <indexField>movie_id</indexField>
-            </settings>
-        </selectionsColumn>
-        <!-- Column id -->
-        <column name="movie_id" sortOrder="10">
-            <settings>
-                <filter>dateRange</filter>
-                <label translate="true">ID</label>
-            </settings>
-        </column>
-        <!-- Column title -->
-        <column name="name" sortOrder="20">
-            <settings>
-                <filter>text</filter>
-                <label translate="true">Name</label>
-            </settings>
-        </column>
-        <column name="description" sortOrder="30">
-            <settings>
-                <filter>false</filter>
-                <label translate="true">Description</label>
-            </settings>
-        </column>
-        <column name="rating" sortOrder="40" >
-            <settings>
-<!--                <bodyTmpl>ui/grid/cells/html</bodyTmpl>-->
-                <filter>text</filter>
-                <label translate="true">Rating</label>
-            </settings>
-        </column>
-        <column name="director_id" component="Magento_Ui/js/grid/columns/select"  sortOrder="60">
-            <settings>
-                <options class="Magenest\Movie\Model\System\Config\Source\DirectorOptions"/>
-                <filter>select</filter>
-                <dataType>select</dataType>
-                <label translate="true">Director</label>
-            </settings>
-        </column>
-        <actionsColumn name="actions" class="Magenest\Movie\UI\Component\Listing\Column\Actions">
-            <settings>
-                <indexField>movie_id</indexField>
-            </settings>
-        </actionsColumn>
-    </columns>
     <!-- ... other block of code -->
     <listingToolbar name="listing_top">
-<!--        <settings>-->
-<!--        <sticky>true</sticky>-->
-<!--        </settings>-->
-<!--        <bookmark name="bookmarks"/>-->
-<!--        <exportButton name="export_button"/>-->
-<!--        <columnsControls name="columns_controls"/>-->
+        <!--        <settings>-->
+        <!--        <sticky>true</sticky>-->
+        <!--        </settings>-->
+        <!--        <bookmark name="bookmarks"/>-->
+        <!--        <exportButton name="export_button"/>-->
+        <!--        <columnsControls name="columns_controls"/>-->
         <filters name="listing_filters">
         </filters>
         <paging name="listing_paging"/>
@@ -135,4 +88,52 @@
             </action>
         </massaction>
     </listingToolbar>
+    <columns name="magenest_movie_columns">
+        <selectionsColumn name="ids">
+            <settings>
+                <indexField>movie_id</indexField>
+            </settings>
+        </selectionsColumn>
+        <!-- Column id -->
+        <column name="movie_id" sortOrder="10">
+            <settings>
+                <filter>dateRange</filter>
+                <label translate="true">ID</label>
+            </settings>
+        </column>
+        <!-- Column title -->
+        <column name="name" sortOrder="20">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">Name</label>
+            </settings>
+        </column>
+        <column name="description" sortOrder="30">
+            <settings>
+                <filter>false</filter>
+                <label translate="true">Description</label>
+            </settings>
+        </column>
+        <column name="rating" sortOrder="40" >
+            <settings>
+<!--                <bodyTmpl>ui/grid/cells/html</bodyTmpl>-->
+                <filter>text</filter>
+                <label translate="true">Rating</label>
+            </settings>
+        </column>
+        <column name="director_id" component="Magento_Ui/js/grid/columns/select"  sortOrder="60">
+            <settings>
+                <options class="Magenest\Movie\Model\System\Config\Source\DirectorOptions"/>
+                <filter>select</filter>
+                <dataType>select</dataType>
+                <label translate="true">Director</label>
+            </settings>
+        </column>
+        <actionsColumn name="actions" class="Magenest\Movie\UI\Component\Listing\Column\Actions">
+            <settings>
+                <indexField>movie_id</indexField>
+            </settings>
+        </actionsColumn>
+    </columns>
+
 </listing>

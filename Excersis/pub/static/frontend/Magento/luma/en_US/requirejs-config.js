@@ -1117,6 +1117,17 @@ var config = {
 require.config(config);
 })();
 (function() {
+// var config = {
+//     map: {
+//         '*': {
+//             'Magento_Swatches/js/swatch-renderer':'Magenest_Movie/js/swatch-renderer'
+//         }
+//     }
+// };
+
+require.config(config);
+})();
+(function() {
 /**
  * Config to pull in all the relevant Braintree JS SDKs
  * @type {

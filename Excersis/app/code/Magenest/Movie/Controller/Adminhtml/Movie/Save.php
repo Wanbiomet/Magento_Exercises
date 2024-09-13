@@ -14,18 +14,21 @@ class Save extends \Magento\Backend\App\Action {
 
     protected $resultRedirectFactory;
 
+    protected $eventManager;
     public function __construct(
         Context $context,
         Movie $movieResourceModel,
         MovieFactory $movieFactory,
         RedirectFactory $resultRedirectFactory,
-        \Magento\Framework\App\RequestInterface $request
+        \Magento\Framework\App\RequestInterface $request,
+        \Magento\Framework\Event\ManagerInterface $eventManager
     ) {
         parent::__construct($context);
         $this->movieResourceModel = $movieResourceModel;
         $this->movieFactory = $movieFactory;
         $this->resultRedirectFactory = $resultRedirectFactory;
         $this->_request = $request;
+        $this->eventManager = $eventManager;
     }
     public function execute()
     {
@@ -43,6 +46,7 @@ class Save extends \Magento\Backend\App\Action {
         $movie->setData('description', $post_data['description']);
         $movie->setData('rating', $post_data['rating']);
         $movie->setData('director_id', $post_data['director_id']);
+        $this->eventManager->dispatch('save_movie',['movie' => $movie]);
         $this->movieResourceModel->save($movie);
 
         $resultRedirect = $this->resultRedirectFactory->create();

@@ -14,6 +14,13 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="movie_new_form_data_source" xsi:type="string">Magenest\Movie\Model\System\Config\MovieProvider</item>
+            </argument>
+        </arguments>
+    </type>
 
     <!-- Director -->
     <virtualType name="director" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
@@ -69,17 +76,10 @@
             <argument name="collectionFactory" xsi:type="array">Magenest\Movie\Model\ResourceModel\Director\CollectionFactory</argument>
         </arguments>
     </type>
-<!--    &lt;!&ndash; Bind Actor to UiComponent &ndash;&gt;-->
-<!--    <type name="Magenest\Movie\Model\System\Config\Source\Actor">-->
-<!--        <arguments>-->
-<!--            <argument name="collectionFactory" xsi:type="array">Magenest\Movie\Model\ResourceModel\Actor\CollectionFactory</argument>-->
-<!--        </arguments>-->
-<!--    </type>-->
-<!--    &lt;!&ndash; Bind Movie to UiComponent &ndash;&gt;-->
-<!--    <type name="Magenest\Movie\Model\System\Config\Source\Movie">-->
-<!--        <arguments>-->
-<!--            <argument name="collectionFactory" xsi:type="array">Magenest\Movie\Model\ResourceModel\Movie\CollectionFactory</argument>-->
-<!--        </arguments>-->
-<!--    </type>-->
+
+    <!-- Plugin change name of child product -->
+    <type name="Magento\Checkout\Controller\Cart\Add">
+        <plugin name="magenest_movie::miniCartName" type="Magenest\Movie\Plugin\ItemPlugin" sortOrder="10" />
+    </type>
 
 </config>
