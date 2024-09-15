@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-page-builder/view/adminhtml/web/js/content-type/observable-updater/style.js

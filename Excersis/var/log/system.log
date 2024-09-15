@@ -4544,3 +4544,608 @@ Did you mean one of these?
 [2024-09-13T06:27:06.965267+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2024-09-13T06:27:07.394692+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
 [2024-09-13T06:27:07.394963+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:52:38.313360+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:38.313909+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:38.314366+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:39.063539+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:52:39.063969+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:52:39.218273+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:39.218536+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:39.219015+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:39.696498+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/Magento_Customer/js/zxcvbn.js.map' [] []
+[2024-09-13T06:52:39.696824+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/Magento_Customer/js/zxcvbn.js.map' [] []
+[2024-09-13T06:52:52.668781+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.669032+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.669483+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.860828+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.861119+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.861588+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T06:52:52.869579+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:52:52.869953+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:53:07.605028+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T06:53:07.605339+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:31:42.661171+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.661584+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.661708+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.661835+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.661955+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662083+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662200+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662319+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662436+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662554+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662671+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662789+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.662913+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663030+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663156+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663273+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663564+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663683+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T07:31:42.663907+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664024+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664138+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664251+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664364+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-13T07:31:42.664506+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664620+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T07:31:42.664744+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-13T07:31:55.996643+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:31:55.997091+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:32:00.555095+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T07:32:01.265781+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:32:01.266180+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:32:07.805068+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T07:32:11.164692+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:32:11.165043+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T07:32:15.102060+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'config': No matching global declaration available for the validation root.
+Line: 2
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/ui_configuration.xsd">
+2:    <form>
+3:        <fieldset name="general">
+4:            <field name="avatar" formElement="file">
+5:                <settings>
+6:                    <label translate="true">Avatar</label>
+7:                    <dataType>file</dataType>
+8:                    <formElement>file</formElement>
+9:                    <visible>true</visible>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:33:10.694488+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'formElement': This element is not expected.
+Line: 8
+The xml was: 
+3:        <field name="avatar" formElement="file">
+4:            <settings>
+5:                <label translate="true">Avatar</label>
+6:                <dataType>file</dataType>
+7:                <formElement>file</formElement>
+8:                <visible>true</visible>
+9:                <required>true</required>
+10:                <dataScope>avatar</dataScope>
+11:            </settings>
+12:            <formElements>
+
+Element 'uploaderConfig': This element is not expected.
+Line: 16
+The xml was: 
+11:            </settings>
+12:            <formElements>
+13:                <file>
+14:                    <settings>
+15:                        <uploaderConfig>
+16:                            <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+17:                            <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+18:                        </uploaderConfig>
+19:                    </settings>
+20:                </file>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:33:57.797959+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'uploaderConfig': This element is not expected.
+Line: 15
+The xml was: 
+10:            </settings>
+11:            <formElements>
+12:                <file>
+13:                    <settings>
+14:                        <uploaderConfig>
+15:                            <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+16:                            <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+17:                        </uploaderConfig>
+18:                    </settings>
+19:                </file>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:37:37.165494+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'argument': This element is not expected. Expected is ( formElements ).
+Line: 12
+The xml was: 
+7:                <visible>true</visible>
+8:                <required>true</required>
+9:                <dataScope>avatar</dataScope>
+10:            </settings>
+11:            <argument name="data" xsi:type="array">
+12:            <item name="config" xsi:type="array">
+13:                <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+14:                <item name="previewTmpl" xsi:type="string">ui/form/element/uploader/preview</item>
+15:                <item name="uploaderConfig" xsi:type="array">
+16:                    <item name="url" xsi:type="url" path="magenest_upload/index/upload"/>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:39:02.920324+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'fileUploader': This element is not expected.
+Line: 11
+The xml was: 
+6:                <dataType>file</dataType>
+7:                <visible>true</visible>
+8:                <required>true</required>
+9:                <dataScope>avatar</dataScope>
+10:                <fileUploader>
+11:                    <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+12:                    <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+13:                </fileUploader>
+14:            </settings>
+15:        </field>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:39:40.522898+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'uploaderConfig': This element is not expected.
+Line: 11
+The xml was: 
+6:                <dataType>file</dataType>
+7:                <visible>true</visible>
+8:                <required>true</required>
+9:                <dataScope>avatar</dataScope>
+10:                <uploaderConfig>
+11:                    <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+12:                    <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+13:                </uploaderConfig>
+14:            </settings>
+15:        </field>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:45:37.523978+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'argument': The type definition is abstract.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<form>
+2:    <fieldset name="general">
+3:        <field name="avatar" formElement="file">
+4:            <argument name="data" xsi:type="array">
+5:                <item name="config" xsi:type="array">
+6:                    <item name="formElement" xsi:type="string">fileUploader</item>
+7:                    <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+8:                    <item name="previewTmpl" xsi:type="string">Venor_Module/image-preview</item>
+9:                    <item name="uploaderConfig" xsi:type="array">
+
+Element 'uploaderConfig': This element is not expected.
+Line: 21
+The xml was: 
+16:                <dataType>file</dataType>
+17:                <visible>true</visible>
+18:                <required>true</required>
+19:                <dataScope>avatar</dataScope>
+20:                <uploaderConfig>
+21:                    <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+22:                    <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+23:                </uploaderConfig>
+24:            </settings>
+25:        </field>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:46:41.354387+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'argument': The type definition is abstract.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<form>
+2:    <fieldset name="general">
+3:        <field name="avatar" formElement="file">
+4:            <argument name="data" xsi:type="array">
+5:                <item name="config" xsi:type="array">
+6:                    <item name="formElement" xsi:type="string">fileUploader</item>
+7:                    <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+8:                    <item name="previewTmpl" xsi:type="string">Venor_Module/image-preview</item>
+9:                    <item name="uploaderConfig" xsi:type="array">
+
+Element 'uploaderConfig': This element is not expected.
+Line: 21
+The xml was: 
+16:                <dataType>file</dataType>
+17:                <visible>true</visible>
+18:                <required>true</required>
+19:                <dataScope>avatar</dataScope>
+20:                <uploaderConfig>
+21:                    <allowedExtensions>jpg,jpeg,png,gif</allowedExtensions>
+22:                    <fileSizeLimit>2M</fileSizeLimit> <!-- Example limit -->
+23:                </uploaderConfig>
+24:            </settings>
+25:        </field>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:50:51.069921+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T07:53:22.493839+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'argument': The type definition is abstract.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<form>
+2:    <fieldset name="general">
+3:        <field name="avatar">
+4:            <argument name="data" xsi:type="array">
+5:                <item name="config" xsi:type="array">
+6:                    <item name="dataType" xsi:type="string">string</item>
+7:                    <item name="source" xsi:type="string">avatar</item>
+8:                    <item name="label" xsi:type="string" translate="true">Avatar</item>
+9:                    <item name="visible" xsi:type="boolean">true</item>
+
+Verify the XML and try again. [] []
+[2024-09-13T07:58:52.568039+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Element 'argument': The type definition is abstract.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<form>
+2:    <fieldset name="general">
+3:        <field name="avatar">
+4:            <argument name="data" xsi:type="array">
+5:                <item name="config" xsi:type="array">
+6:                    <item name="dataType" xsi:type="string">string</item>
+7:                    <item name="source" xsi:type="string">avatar</item>
+8:                    <item name="label" xsi:type="string" translate="true">Avatar</item>
+9:                    <item name="visible" xsi:type="boolean">true</item>
+
+Verify the XML and try again. [] []
+[2024-09-13T08:01:02.920904+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_form.xml" is invalid:
+Start tag expected, '<' not found
+Line: 24
+
+Verify the XML and try again. [] []
+[2024-09-13T08:02:02.199918+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:02:09.790665+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:02:10.876384+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:02:10.877065+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:02:17.931354+00:00] main.ERROR: Class "Magento\Customer\Model\Attribute\Backend\File" does not exist [] []
+[2024-09-13T08:14:24.921645+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:22:41.360735+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:23:20.212496+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:25:38.111482+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:25:52.856988+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:25:52.857268+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:25:54.735363+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/chartjs/chart.umd.js.map' [] []
+[2024-09-13T08:25:54.735749+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/chartjs/chart.umd.js.map' [] []
+[2024-09-13T08:25:57.846456+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:26:01.260482+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:26:01.260899+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:26:05.734616+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:29:58.973926+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:29:59.678316+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:29:59.678591+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:49:02.832049+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:49:30.167785+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:49:30.168636+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:53:53.829290+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:54:10.706244+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:54:10.706555+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:57:27.051639+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:57:43.765504+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:57:43.765963+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:57:46.286669+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T08:57:46.286974+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T08:58:04.865490+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:58:06.141659+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:58:06.142221+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:58:54.862344+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:58:55.430471+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:58:55.430768+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:58:56.049677+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T08:58:56.050132+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T08:59:07.953372+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T08:59:08.337879+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T08:59:08.338170+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:01:24.168823+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:01:24.671687+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:01:24.671989+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:01:25.163692+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:01:25.164071+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:01:40.869881+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:01:43.046953+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:01:43.047251+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:19:33.190026+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:19:35.380672+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:19:35.381017+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:19:35.772252+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:19:35.772536+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:33:19.987992+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:33:21.150352+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:33:21.150988+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:33:21.708824+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:33:21.709171+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:33:59.350309+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:34:01.314785+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:34:01.315277+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:34:24.501603+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:34:26.568590+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:34:26.568924+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:34:27.022528+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:34:27.022791+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:35:09.914038+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:35:12.030257+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:35:12.030520+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:35:30.724396+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:35:32.852274+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:35:32.852512+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:35:33.314438+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:35:33.314719+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:36:46.579270+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:36:47.522750+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:36:47.523117+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:36:47.921161+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:36:47.921626+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T09:47:30.687231+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T09:47:32.875180+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T09:47:32.875732+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:00:19.558444+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:00:20.759108+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:00:20.759466+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:00:21.347320+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T10:00:21.347729+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T10:16:17.120398+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:16:46.844948+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:16:46.845253+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:19:06.073117+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:19:09.706497+00:00] main.ERROR: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-13T10:19:09.706766+00:00] main.CRITICAL: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-13T10:19:37.038818+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:19:37.039701+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:22:42.942541+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:23:01.386763+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:23:01.387118+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:27:53.939786+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:28:23.715037+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:28:23.715306+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:31:22.963518+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:31:52.756707+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:31:52.757014+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:33:57.059073+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:34:15.604488+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:34:15.605029+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:36:05.661510+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T10:36:07.312598+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:36:07.312854+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-13T10:36:23.162061+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T10:36:23.162305+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-13T13:10:46.764630+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.765964+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.766272+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.766456+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.766631+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.766821+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.766995+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.767198+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.767373+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.767552+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.767731+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.767932+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.768173+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.768366+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.768531+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.768695+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.769159+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.769411+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-13T13:10:46.769734+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.769929+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.770124+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.770320+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.770483+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-13T13:10:46.770716+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.770887+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-13T13:10:46.771097+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-13T13:10:48.648198+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:10:48.648686+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:10:48.649460+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:10:52.329360+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:10:52.329676+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:10:52.330177+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:11:03.317428+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:11:03.317778+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:11:03.318257+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:43.751592+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:43.751941+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:43.752427+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:46.220469+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:46.220747+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:32:46.221218+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T13:34:33.400107+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T13:34:41.933031+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T13:34:54.603116+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T13:35:17.284305+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-13T15:27:42.860798+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T15:27:42.861105+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-13T15:27:42.861573+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.931970+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.932982+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933149+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933270+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933384+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933510+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933624+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933755+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.933869+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934004+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934141+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934259+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934372+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934485+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934599+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.934713+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.935032+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.935220+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T12:56:03.935478+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.935590+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.935700+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.935808+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.935917+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-14T12:56:03.936060+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.936197+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T12:56:03.936322+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-14T14:43:05.004264+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.004449+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.004566+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.004680+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.004794+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.004918+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005038+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005160+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005274+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005387+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005499+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005612+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005724+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005837+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.005955+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.006066+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.006354+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.006468+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T14:43:05.006671+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.006780+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.006900+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.007010+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.007138+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-14T14:43:05.007278+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.007388+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T14:43:05.007509+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-14T14:44:10.215445+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T14:51:19.649278+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T14:51:38.335062+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T14:51:51.301961+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T14:52:16.225818+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T14:56:05.719315+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:05.719578+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:05.720032+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:09.632420+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:09.632720+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:09.633205+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:18.767858+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:18.768225+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:56:18.768711+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:57:05.234317+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:57:05.234596+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:57:05.235058+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-14T14:58:40.837554+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T14:58:40.838585+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:28:51.963134+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_listing.xml" is invalid:
+Element 'bodyTmpl': This element is not expected.
+Line: 10
+The xml was: 
+5:                <label translate="true">Avatar</label>
+6:                <filter>text</filter>
+7:                <sorting>asc</sorting>
+8:            </settings>
+9:            <bodyTmpl>Magento_Customer/grid/cells/html</bodyTmpl>
+10:            <argument name="data" xsi:type="array">
+11:                <item name="config" xsi:type="array">
+12:                    <item name="component" xsi:type="string">Magenest_Movie/js/grid/columns/profile_image</item>
+13:                </item>
+14:            </argument>
+
+Verify the XML and try again. [] []
+[2024-09-14T15:37:28.424446+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:37:28.485837+00:00] main.ERROR: Class "Magenest\Movie\Ui\Component\Listing\Column\Thumbnail" does not exist [] []
+[2024-09-14T15:38:50.047890+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:38:54.356456+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:38:54.356750+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:38:58.079041+00:00] main.ERROR: The path is not allowed: media/path/to/your/image//l/e/lenux_1.jpg [] []
+[2024-09-14T15:40:22.722361+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:40:25.586264+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:25.586593+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:26.117832+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T15:40:26.118149+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T15:40:27.483777+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:40:30.247803+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:30.248042+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:40.022466+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:40:42.936151+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:42.936557+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:40:43.350715+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T15:40:43.350955+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T15:55:00.950471+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T15:55:04.614056+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T15:55:04.614466+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:01:17.643537+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:01:21.696066+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:01:21.696471+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:02:42.395618+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:02:45.344018+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:02:45.344346+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:02:45.884446+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T16:02:45.884734+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T16:43:19.615936+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616126+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616247+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616373+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616487+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616610+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616724+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616838+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.616952+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617065+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617190+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617304+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617416+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617529+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617642+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.617755+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.618041+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.618163+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-14T16:43:19.618368+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.618479+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.618589+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.618699+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.618809+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-14T16:43:19.618948+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.619059+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-14T16:43:19.619188+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-14T16:43:23.356177+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:43:23.356444+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:43:56.405274+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:44:00.335567+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:44:00.335805+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:44:10.422211+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T16:44:10.422453+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-14T16:45:14.809605+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:45:17.472456+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:45:17.472758+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:46:44.455717+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:46:47.192447+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:46:47.192852+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:49:07.214140+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:49:11.288176+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:49:11.288555+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:51:55.332546+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:51:59.315023+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:51:59.315308+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:53:11.925205+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:53:14.926309+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:53:14.926617+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:54:15.239585+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:54:19.224240+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:54:19.224601+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:55:27.922645+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:55:31.605089+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:55:31.605513+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:57:52.146743+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 40000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-09-14T16:57:52.175645+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 40000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-09-14T16:57:52.190690+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 40000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-09-14T16:57:53.185381+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 6250; Allocated memory size: 40000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-09-14T16:58:10.786495+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:58:14.627662+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:58:14.628254+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:58:18.858697+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-14T16:58:21.699417+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-14T16:58:21.699748+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []

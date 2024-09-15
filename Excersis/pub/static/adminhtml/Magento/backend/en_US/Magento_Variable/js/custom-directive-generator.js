@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-variable/view/adminhtml/web/js/custom-directive-generator.js

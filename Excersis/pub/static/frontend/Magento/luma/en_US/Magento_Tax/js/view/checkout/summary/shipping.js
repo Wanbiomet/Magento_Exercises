@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-tax/view/frontend/web/js/view/checkout/summary/shipping.js

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="customer_columns">
+        <column name="avatar" class="Magenest\Movie\UI\Component\Listing\Column\Thumbnail" component="Magento_Ui/js/grid/columns/thumbnail">
+            <settings>
+                <label translate="true">Avatar</label>
+            </settings>
+        </column>
+    </columns>
+</listing>
