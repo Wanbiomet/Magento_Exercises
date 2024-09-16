@@ -114,9 +114,9 @@
                 <label translate="true">Description</label>
             </settings>
         </column>
-        <column name="rating" sortOrder="40" >
+        <column name="rating" sortOrder="40" class="Magenest\Movie\UI\Component\Listing\Column\Ratings">
             <settings>
-<!--                <bodyTmpl>ui/grid/cells/html</bodyTmpl>-->
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
                 <filter>text</filter>
                 <label translate="true">Rating</label>
             </settings>

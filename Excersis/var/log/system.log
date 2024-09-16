@@ -5149,3 +5149,733 @@ Verify the XML and try again. [] []
 [2024-09-14T16:58:18.858697+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2024-09-14T16:58:21.699417+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
 [2024-09-14T16:58:21.699748+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-15T03:15:16.386382+00:00] main.INFO: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T03:15:16.387729+00:00] main.ERROR: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T03:15:18.360757+00:00] main.INFO: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T03:15:18.361255+00:00] main.ERROR: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T03:15:18.658378+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.658822+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.658994+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.659153+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.659315+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.659511+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.659681+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660029+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660192+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660348+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660517+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660689+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.660849+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.661009+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.661168+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.661333+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.661761+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.661953+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T03:15:18.662258+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.662443+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.662619+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.662777+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.662936+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-15T03:15:18.663146+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.663326+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T03:15:18.663460+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-15T03:15:20.473590+00:00] main.INFO: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T03:15:20.474102+00:00] main.ERROR: Theme layout update file '/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/layout/movie_newpage_index.xml' is not valid.
+ [] []
+[2024-09-15T04:00:07.547975+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:07.548196+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:07.548660+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:11.187928+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:00:11.188183+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:00:11.229037+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:11.229304+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:11.229768+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:12.717273+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:12.717565+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:12.718031+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-09-15T04:00:19.710033+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:00:19.710297+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:00:27.739480+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:00:27.739799+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:01:36.232826+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:01:36.233088+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:02:20.159562+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:02:20.159826+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:02:23.871552+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:02:23.871820+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:04:56.020357+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:04:56.020647+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:07:04.205138+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:07:04.205405+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:07:41.962536+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:07:41.962799+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:30:10.646374+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:30:10.646687+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:30:26.850883+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:30:26.851158+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Vendor_Module/css/buttons.less [] []
+[2024-09-15T04:30:26.923633+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:30:26.923893+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:35:09.013895+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Magenest_Movie/css/buttons.less [] []
+[2024-09-15T04:35:09.014182+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Magenest_Movie/css/buttons.less [] []
+[2024-09-15T04:35:10.461709+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:35:10.461962+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:38:18.290609+00:00] main.ERROR: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Magenest_Movie/css/buttons.less [] []
+[2024-09-15T04:38:18.290873+00:00] main.CRITICAL: Compilation from source: LESS file is empty: frontend/Magento/luma/en_US/Magenest_Movie/css/buttons.less [] []
+[2024-09-15T04:38:19.742728+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:38:19.742971+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:41:18.021100+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:41:18.021441+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:51:22.069412+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:51:22.069941+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:51:52.940617+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:51:52.941068+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:52:33.747093+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:52:33.747332+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:55:39.611648+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:55:39.612045+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:55:46.449703+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T04:55:46.449993+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:44:05.422079+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:44:05.422662+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:54:04.892657+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.892931+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893048+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893160+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893271+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893392+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893512+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893627+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893759+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893870+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.893980+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894094+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894204+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894313+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894424+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894542+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.894975+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.895087+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-15T07:54:04.895291+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.895399+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.895538+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.895649+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.895755+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-15T07:54:04.895890+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.895997+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-15T07:54:04.896115+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-15T07:54:29.959138+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-15T07:54:49.794436+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-15T07:54:55.973653+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-15T07:55:13.814216+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:55:13.814456+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:59:29.975180+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T07:59:29.975682+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:00:43.247536+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:00:43.247789+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:10:07.242988+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /var/www/html/Excersis/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /var/www/html/Excersis/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /var/www/html/Excersis/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /var/www/html/Excersis/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /var/www/html/Excersis/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /var/www/html/Excersis/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /var/www/html/Excersis/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-09-15T08:11:30.172652+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:11:30.172934+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:12:59.467678+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:12:59.467926+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:16:49.891441+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-15T08:16:49.892014+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:27:18.740303+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.742859+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.743187+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.743370+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.743547+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.743749+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.743953+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.744138+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.744689+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.744931+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.745139+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.745341+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.745751+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.746074+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.746297+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.746526+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.747039+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.747260+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T01:27:18.747644+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.747850+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.748099+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.748402+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.748591+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-16T01:27:18.748840+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.749053+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T01:27:18.749267+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-16T01:34:52.848273+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:34:59.346293+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:34:59.346721+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:38:44.315821+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:38:44.980093+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:38:44.980615+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:49:13.496878+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:49:32.673784+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:49:32.674089+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:49:49.686719+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:49:51.112897+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:49:51.113401+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:49:53.027254+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:49:53.027848+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:50:28.740336+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:50:29.431890+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:50:29.432163+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:50:29.859323+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:50:29.859579+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:50:54.581699+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_listing.xml" is invalid:
+Start tag expected, '<' not found
+Line: 11
+
+Verify the XML and try again. [] []
+[2024-09-16T01:51:04.237727+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_listing.xml" is invalid:
+Start tag expected, '<' not found
+Line: 11
+
+Verify the XML and try again. [] []
+[2024-09-16T01:51:06.846935+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:51:07.553571+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:51:07.554182+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:51:08.200118+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:51:08.200854+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:51:54.341489+00:00] main.ERROR: The XML in file "/var/www/html/Excersis/app/code/Magenest/Movie/view/adminhtml/ui_component/customer_listing.xml" is invalid:
+Start tag expected, '<' not found
+Line: 11
+
+Verify the XML and try again. [] []
+[2024-09-16T01:52:24.914873+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:52:25.688219+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:52:25.688520+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:53:15.420594+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:53:16.476944+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:53:16.477472+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:54:21.945203+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:54:22.987136+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:54:22.987570+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:55:12.465809+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:55:13.505878+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:55:13.506488+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:57:44.771244+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:58:35.992393+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:58:36.712864+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:58:36.713612+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:58:54.985582+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:58:55.987267+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:58:55.987928+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:58:56.859935+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:58:56.860559+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:59:11.755989+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:59:12.449126+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:12.449561+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:18.787992+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:59:19.585422+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:19.586124+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:20.160908+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:59:20.161453+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:59:24.066578+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:59:24.742865+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:24.743605+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:34.270063+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:59:35.115059+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:35.115521+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:35.723771+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:59:35.724239+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T01:59:40.673260+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T01:59:41.389754+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:41.390245+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T01:59:53.101444+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:04:00.754415+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:04:21.107333+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:21.107740+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:45.755623+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:04:46.846217+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:46.846995+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:54.425695+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:04:55.620525+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:55.621026+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:04:57.382667+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T02:04:57.383385+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T02:05:07.949077+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:05:08.643321+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:05:08.643856+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:05:14.279344+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:05:15.030806+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:05:15.031249+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:05:15.934523+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T02:05:15.935245+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy.min.js.map' [] []
+[2024-09-16T02:05:20.887577+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T02:05:21.599052+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:05:21.599639+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:12:46.414538+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:12:46.415444+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:19:29.412969+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T02:19:29.413416+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:00:08.892424+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:00:08.893104+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:00:31.336559+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:00:31.337073+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:01:45.225292+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:01:45.225791+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:10:03.096548+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:10:03.096897+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:26:34.575291+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:26:34.575829+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:27:57.518613+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:27:57.519168+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:29:02.369293+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:29:02.369683+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:29:33.897664+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:29:33.897983+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:46.888771+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:46.889169+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:50.813380+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:50.813664+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:57.410771+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:36:57.411335+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:44:11.400700+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:44:11.401261+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:44:54.606618+00:00] main.ERROR: Command "s" is not defined.
+
+Did you mean one of these?
+    admin:adobe-ims:disable
+    admin:adobe-ims:enable
+    admin:adobe-ims:info
+    admin:adobe-ims:status
+    admin:user:create
+    admin:user:unlock
+    app:config:status
+    cache:disable
+    cache:flush
+    cache:status
+    catalog:images:resize
+    catalog:product:attributes:cleanup
+    cms:wysiwyg:restrict
+    config:sensitive:set
+    config:set
+    config:show
+    cron:install
+    customer:hash:upgrade
+    deploy:mode:set
+    deploy:mode:show
+    dev:email:newsletter-compatibility-check
+    dev:profiler:disable
+    dev:query-log:disable
+    dev:source-theme:deploy
+    dev:template-hints:disable
+    dev:template-hints:enable
+    dev:template-hints:status
+    dev:tests:run
+    downloadable:domains:add
+    downloadable:domains:remove
+    downloadable:domains:show
+    i18n:collect-phrases
+    i18n:uninstall
+    indexer:reset
+    indexer:set-dimensions-mode
+    indexer:set-mode
+    indexer:set-status
+    indexer:show-dimensions-mode
+    indexer:show-mode
+    indexer:status
+    info:backups:list
+    info:currency:list
+    info:dependencies:show-framework
+    info:dependencies:show-modules
+    info:dependencies:show-modules-circular
+    info:language:list
+    info:timezone:list
+    inventory-geonames:import
+    inventory:reservation:create-compensations
+    inventory:reservation:list-inconsistencies
+    list
+    maintenance:allow-ips
+    maintenance:disable
+    maintenance:status
+    media-content:sync
+    media-gallery:sync
+    module:config:status
+    module:disable
+    module:status
+    module:uninstall
+    queue:consumers:list
+    queue:consumers:restart
+    queue:consumers:start
+    remote-storage:sync
+    saas:resync
+    sampledata:deploy
+    sampledata:remove
+    sampledata:reset
+    security:recaptcha:disable-for-user-forgot-password
+    security:recaptcha:disable-for-user-login
+    setup:backup
+    setup:config:set
+    setup:db-data:upgrade
+    setup:db-declaration:generate-patch
+    setup:db-declaration:generate-whitelist
+    setup:db-schema:upgrade
+    setup:db:status
+    setup:di:compile
+    setup:install
+    setup:performance:generate-fixtures
+    setup:rollback
+    setup:static-content:deploy
+    setup:store-config:set
+    setup:uninstall
+    setup:upgrade
+    store:list
+    store:website:list
+    theme:uninstall
+    varnish:vcl:generate
+#0 /var/www/html/Excersis/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find()
+#1 /var/www/html/Excersis/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/Excersis/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/Excersis/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-09-16T03:45:47.609112+00:00] main.ERROR: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T03:45:47.609407+00:00] main.CRITICAL: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T03:45:50.900056+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:45:50.900383+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:46:04.865160+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T03:46:04.865490+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:01:51.869767+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_35c95eea375c7c9d9fced9b74239e508c_page_layout_merged and handles default, newpage_newpage_index: Please correct the XML data and try again. Element 'link', attribute 'scr': The attribute 'scr' is not allowed.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <link scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+
+Element 'link': The attribute 'src' is required but missing.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <link scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+ [] []
+[2024-09-16T04:01:51.870278+00:00] main.ERROR: Element 'link', attribute 'scr': The attribute 'scr' is not allowed.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <link scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+
+Element 'link': The attribute 'src' is required but missing.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <link scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+ [] []
+[2024-09-16T04:02:53.985234+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_35c95eea375c7c9d9fced9b74239e508c_page_layout_merged and handles default, newpage_newpage_index: Please correct the XML data and try again. Element 'script', attribute 'scr': The attribute 'scr' is not allowed.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <script scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+
+Element 'script': The attribute 'src' is required but missing.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <script scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+ [] []
+[2024-09-16T04:02:53.985489+00:00] main.ERROR: Element 'script', attribute 'scr': The attribute 'scr' is not allowed.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <script scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+
+Element 'script': The attribute 'src' is required but missing.
+Line: 824
+The xml was: 
+819:      </block>
+820:   </referenceContainer>
+821:</body>
+822:<head>
+823:   <title>Model Test Page</title>
+824:   <script scr="Magenest_Movie::js/button_clicked"/>
+825:</head>
+826:<referenceBlock name="sidebar.additional" remove="true"/>
+827:<referenceContainer name="content">
+828:   <block name="button_page" template="Magenest_Movie::new_page_button.phtml"/>
+ [] []
+[2024-09-16T04:03:41.308367+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:03:41.308767+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:08:32.028775+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:08:32.029225+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:09:29.856782+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:09:29.857200+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:11:39.732211+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:11:39.733449+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:13:29.783779+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:13:29.784756+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:14:26.721989+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:14:26.722303+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:15:23.480945+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:15:23.481237+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:18:53.447009+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:18:53.447312+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:01.712269+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:01.712752+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:20.436348+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:20.436633+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:27.002408+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:19:27.002723+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:20:13.731567+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:20:13.731895+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:21:33.295956+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:21:33.296312+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:26:13.581142+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:26:13.581948+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:31:02.896740+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:31:02.897067+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:31:47.028874+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:31:47.029196+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:32:05.609795+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:32:05.610057+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:36:00.452157+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:36:00.452759+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:36:17.274345+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:36:17.274604+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:37:25.509111+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:37:25.509511+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:05.505704+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:05.506121+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:07.672726+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:07.673045+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:43.962855+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:42:43.963179+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:43:06.594860+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:43:06.595111+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:43:06.706618+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:43:06.706884+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:45:56.664307+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:45:56.664778+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:46:25.006706+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:46:25.007140+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:46:25.110357+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:46:25.110630+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:52:30.258867+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:52:30.259905+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:56:49.293223+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:56:49.293475+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:58:38.339278+00:00] main.ERROR: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T04:58:38.339674+00:00] main.CRITICAL: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T04:58:50.866815+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T04:58:50.867090+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T05:00:02.388631+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T05:00:02.395270+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:06:39.843000+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:06:39.850157+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:07:55.901959+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:07:55.902204+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:03.412069+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:03.412334+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:05.567150+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:05.567477+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:36.730388+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:09:36.730661+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:10:39.475999+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:10:39.476431+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:12:36.599694+00:00] main.ERROR: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T06:12:36.599968+00:00] main.CRITICAL: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T06:12:49.115002+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:12:49.115260+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:14:18.881058+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:14:18.881328+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:17:04.447592+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:17:04.448007+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:17:34.120327+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:17:34.120588+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:20:20.567542+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:20:20.567916+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:21:29.735953+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:21:29.736281+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:21:31.949373+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:21:31.949857+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:28:58.933361+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:28:58.933797+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:29:38.953008+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:29:38.953270+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:39:55.180955+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:39:55.181523+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:41:01.826378+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:41:01.827079+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:41:24.061237+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:41:24.061480+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:43:05.493387+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:43:05.493711+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:43:07.652462+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:43:07.652838+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:56:29.658989+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:56:29.659734+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:59:39.209533+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T06:59:39.213591+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:00:15.958557+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:00:15.959583+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:02:13.824461+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:02:13.824801+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:04:57.603173+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:04:57.649993+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:04:58.007837+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:04:58.008302+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:18:20.631392+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.631922+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632055+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632172+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632287+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632412+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632528+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632644+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632763+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.632883+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633049+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633206+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633321+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633550+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633663+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.633776+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.634071+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.634198+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-09-16T07:18:20.634408+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.634523+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.634637+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.634777+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.634891+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-09-16T07:18:20.635071+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.635194+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-09-16T07:18:20.635318+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-09-16T07:18:20.895453+00:00] main.ERROR: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T07:18:20.895704+00:00] main.CRITICAL: The "/var/www/html/Excersis/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-09-16T07:18:34.675604+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:18:34.675890+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:28:03.930687+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:28:04.634319+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:28:04.634569+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:28:06.553285+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest/Movie/view/templates/ratings.html/template' [] []
+[2024-09-16T07:28:06.553594+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest/Movie/view/templates/ratings.html/template' [] []
+[2024-09-16T07:35:49.934412+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:35:50.557263+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:35:50.557557+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:35:51.615838+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:35:51.616161+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:36:59.380557+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:36:59.953339+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:36:59.953613+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:37:22.441117+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:37:22.441362+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:38:15.421713+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:41:56.842042+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:41:57.978579+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:41:57.978831+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:43:06.094604+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:43:06.095045+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:50:33.441467+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:50:34.968866+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:50:34.969305+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:50:36.982453+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:50:36.982785+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/ratings.html' [] []
+[2024-09-16T07:57:09.455426+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T07:57:12.165578+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:57:12.165838+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T07:57:59.370523+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/template/ratings.html' [] []
+[2024-09-16T07:57:59.370944+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/template/ratings.html' [] []
+[2024-09-16T08:03:06.925614+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:03:07.520989+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:03:07.521432+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:03:08.755857+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/template/ratings.html' [] []
+[2024-09-16T08:03:08.756224+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magenest_Movie/template/template/ratings.html' [] []
+[2024-09-16T08:03:37.105420+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:03:37.105654+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:07:43.125788+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:07:43.900304+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:07:43.900698+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:10:21.346495+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:10:21.968184+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:10:21.968567+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:11:05.227621+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:16:49.987929+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:18:14.722870+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:18:28.061235+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:21:04.045604+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:31:53.188315+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:35:36.947876+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:38:13.753543+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:46:58.540805+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:49:49.703508+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:49:49.704656+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2024-09-16T08:51:45.422945+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:52:01.906783+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:52:13.179615+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:53:47.432182+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:55:25.312117+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T08:57:10.848405+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T09:01:41.136713+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T09:02:08.905834+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-09-16T09:05:22.496032+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
