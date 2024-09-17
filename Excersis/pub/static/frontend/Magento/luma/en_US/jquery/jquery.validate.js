@@ -1,1 +1,0 @@
-/var/www/html/Excersis/lib/web/jquery/jquery.validate.js

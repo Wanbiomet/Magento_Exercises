@@ -4,7 +4,7 @@
         <observer name="magenest_movie_change_customer_firstname" instance="Magenest\Movie\Observer\ChangeCustomerFirstname" />
     </event>
     <event name="save_movie">
-        <observer name="set_movie_rating" instance="Magenest\Movie\Observer\SetMovieRating" />
+        <observer name="set_movie_rating" instance="Magenest\Movie\Observer\SetMovieRating" disabled="true"/>
     </event>
     <event name="admin_system_config_changed_section_movie">
         <observer name="custom_textfield_movie" instance="Magenest\Movie\Observer\ChangeValueTextField" />

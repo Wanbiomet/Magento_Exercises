@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-ui/view/base/web/js/modal/confirm.js
