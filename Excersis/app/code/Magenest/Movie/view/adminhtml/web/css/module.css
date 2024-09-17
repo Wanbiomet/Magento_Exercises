@@ -1,0 +1,15 @@
+.odd.error {
+    font-size: 12px;
+    padding: 20px;
+    color: red;
+    background-color: #EE9797FF;
+    font-weight: bold;
+}
+
+.even.success {
+    font-size: 12px;
+    padding: 20px;
+    color: green;
+    background-color: #71cc71;
+    font-weight: bold;
+}

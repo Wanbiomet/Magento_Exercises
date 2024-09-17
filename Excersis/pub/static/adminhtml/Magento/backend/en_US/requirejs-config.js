@@ -768,7 +768,7 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            'custom-config': 'Magenest_Movie/js/custom-config'
+            'custom-config': 'Magenest_Movie/js/custom-config',
         }
     }
 };

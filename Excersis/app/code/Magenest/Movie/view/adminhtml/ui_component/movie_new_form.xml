@@ -65,6 +65,9 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="source" xsi:type="string">movie_new_form</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
             <settings>
@@ -91,6 +94,10 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="source" xsi:type="string">movie_new_form</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="validate-digits" xsi:type="boolean">true</item>
+                        <item name="validate-greater-than-zero" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
             <settings>
