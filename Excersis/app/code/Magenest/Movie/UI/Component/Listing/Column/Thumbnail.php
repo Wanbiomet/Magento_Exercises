@@ -9,7 +9,7 @@ use Magento\Framework\View\Element\UiComponent\ContextInterface;
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Ui\Component\Listing\Columns\Column;
 
-class Thumbnail extends Column
+class   Thumbnail extends Column
 {
     const ALT_FIELD = 'title';
 

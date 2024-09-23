@@ -9,4 +9,8 @@
     <event name="admin_system_config_changed_section_movie">
         <observer name="custom_textfield_movie" instance="Magenest\Movie\Observer\ChangeValueTextField" />
     </event>
+    <event name="catalog_product_save_after">
+        <observer name="save_course_data" instance="Magenest\Movie\Observer\SaveCourseData"/>
+    </event>
+
 </config>

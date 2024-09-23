@@ -7,5 +7,8 @@
         <route id="newpage" frontName="newpage">
             <module name="Magenest_Movie" />
         </route>
+        <route id="index" frontName="index">
+            <module name="Magenest_Movie" />
+        </route>
     </router>
 </config>

@@ -420,10 +420,12 @@ class ComposerStaticInite2ed724995a64dceb3aca56a948370a1
         '2451819c9c2b818eb9be5f36b51585ea' => __DIR__ . '/..' . '/magento/module-wishlist-graph-ql/registration.php',
         'd04d5084d3db908d3544ed506541866a' => __DIR__ . '/..' . '/magento/theme-adminhtml-backend/registration.php',
         '7102f9cf0d2c08bc731a7e185c1c8bfc' => __DIR__ . '/..' . '/magento/theme-frontend-luma/registration.php',
+        '6b5b87bda6fedcf6ef8605219c8b67f2' => __DIR__ . '/..' . '/mageplaza/module-core/registration.php',
         'aa75ea0761a2f40c1f3b32ad314f86c4' => __DIR__ . '/..' . '/phpseclib/mcrypt_compat/lib/mcrypt.php',
         '38143a9afc50997d55e4815db8489d1c' => __DIR__ . '/..' . '/rector/rector/bootstrap.php',
         '940abd8fb01ee76a36b44f35dcf9783b' => __DIR__ . '/..' . '/weew/helpers-array/src/array.php',
         'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
+        'a77049f7f3ca4c78b9e3635c8f857d84' => __DIR__ . '/..' . '/mageplaza/module-smtp/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -541,6 +543,8 @@ class ComposerStaticInite2ed724995a64dceb3aca56a948370a1
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mageplaza\\Smtp\\' => 15,
+            'Mageplaza\\Core\\' => 15,
             'Magento\\Wishlist\\' => 17,
             'Magento\\WishlistGraphQl\\' => 24,
             'Magento\\WishlistAnalytics\\' => 26,
@@ -1351,6 +1355,14 @@ class ComposerStaticInite2ed724995a64dceb3aca56a948370a1
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Mageplaza\\Smtp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mageplaza/module-smtp',
+        ),
+        'Mageplaza\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mageplaza/module-core',
         ),
         'Magento\\Wishlist\\' => 
         array (

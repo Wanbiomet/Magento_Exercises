@@ -88,6 +88,9 @@ class Thumbnail extends \Magento\Ui\Component\Listing\Columns\Column
     {
         $altField = $this->getData('config/altField') ?: self::ALT_FIELD;
         // phpcs:disable Magento2.Functions.DiscouragedFunction
-        return html_entity_decode($row[$altField], ENT_QUOTES, "UTF-8") ?? null;
+        if (isset($row[$altField])) {
+            return html_entity_decode($row[$altField], ENT_QUOTES, "UTF-8");
+        }
+        return null;
     }
 }

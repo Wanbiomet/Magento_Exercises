@@ -1,0 +1,24 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/ui_configuration.xsd">
+    <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
+        <column name="course_start_time"
+                class="Magento\Ui\Component\Listing\Columns\Date"
+                component="Magento_Ui/js/grid/columns/date"
+                sortOrder="110">
+            <settings>
+                <filter>dateRange</filter>
+                <dataType>date</dataType>
+                <label translate="true">Course Start</label>
+            </settings>
+        </column>
+        <column name="course_end_time"
+                class="Magento\Ui\Component\Listing\Columns\Date"
+                component="Magento_Ui/js/grid/columns/date"
+                sortOrder="110">
+            <settings>
+                <filter>dateRange</filter>
+                <dataType>date</dataType>
+                <label translate="true">Course End</label>
+            </settings>
+        </column>
+    </columns>
+</listing>

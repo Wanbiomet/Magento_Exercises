@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="course_info" sortOrder="1" >
+        <settings>
+            <collapsible>true</collapsible>
+            <label>Course Info</label>
+        </settings>
+        <field name="course_start_time" formElement="date" component="Magenest_Movie/js/calendar-mixin">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="options" xsi:type="array">
+                        <item name="showsTime" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="source" xsi:type="string">start_date</item>
+                </item>
+            </argument>
+            <settings>
+                <validation>
+                    <rule name="validate-date" xsi:type="boolean">true</rule>
+                </validation>
+                <dataType>timestamp</dataType>
+                <label translate="true">Start Date</label>
+                <visible>true</visible>
+                <dataScope>start_date</dataScope>
+            </settings>
+        </field>
+        <field name="course_end_time" formElement="date" component="Magenest_Movie/js/calendar-mixin">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="options" xsi:type="array">
+                        <item name="showsTime" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="source" xsi:type="string">start_date</item>
+                </item>
+            </argument>
+            <settings>
+                <validation>
+                    <rule name="validate-date" xsi:type="boolean">true</rule>
+                </validation>
+                <dataType>timestamp</dataType>
+                <label translate="true">End Date</label>
+                <visible>true</visible>
+                <dataScope>end_date</dataScope>
+            </settings>
+        </field>
+<!--        <field name="course_link" formElement="input" >-->
+<!--            <argument name="data" xsi:type="array">-->
+<!--                <item name="config" xsi:type="array">-->
+<!--                    <item name="source" xsi:type="string">link</item>-->
+<!--                </item>-->
+<!--            </argument>-->
+<!--            <settings>-->
+<!--                <dataType>text</dataType>-->
+<!--                <label translate="true">Link</label>-->
+<!--                <visible>true</visible>-->
+<!--                <dataScope>link</dataScope>-->
+<!--            </settings>-->
+<!--        </field>-->
+<!--        <field name="course_document" formElement="input" >-->
+<!--            <argument name="data" xsi:type="array">-->
+<!--                <item name="config" xsi:type="array">-->
+<!--                    <item name="source" xsi:type="string">document</item>-->
+<!--                </item>-->
+<!--            </argument>-->
+<!--            <settings>-->
+<!--                <dataType>text</dataType>-->
+<!--                <label translate="true">Document</label>-->
+<!--                <visible>true</visible>-->
+<!--                <dataScope>document</dataScope>-->
+<!--            </settings>-->
+<!--        </field>-->
+<!--        <field name="course_start_time" formElement="date" component="Magento_Ui/js/form/element/date">-->
+<!--            <argument name="data" xsi:type="array">-->
+<!--                <item name="config" xsi:type="array">-->
+<!--                    <item name="source" xsi:type="string">course_info</item>-->
+<!--                </item>-->
+<!--            </argument>-->
+<!--            <settings>-->
+<!--                <validation>-->
+<!--                    <rule name="validate-date" xsi:type="boolean">true</rule>-->
+<!--                </validation>-->
+<!--                <dataType>text</dataType>-->
+<!--                <visible>true</visible>-->
+<!--                <dataScope>course_start_time</dataScope>-->
+<!--                <label>Course Start Time</label>-->
+<!--            </settings>-->
+<!--        </field>-->
+
+<!--        <field name="course_end_time" formElement="date" component="Magento_Ui/js/form/element/date">-->
+<!--            <argument name="data" xsi:type="array">-->
+<!--                <item name="config" xsi:type="array">-->
+<!--                    <item name="source" xsi:type="string">course_info</item>-->
+<!--                </item>-->
+<!--            </argument>-->
+<!--            <settings>-->
+<!--                <dataType>text</dataType>-->
+<!--                <visible>true</visible>-->
+<!--                <dataScope>course_end_time</dataScope>-->
+<!--                <label>Course End Time</label>-->
+<!--            </settings>-->
+<!--        </field>-->
+
+        <!--        <field name="start_date" formElement="date">-->
+        <!--            <argument name="data" xsi:type="array">-->
+        <!--                <item name="config" xsi:type="array">-->
+        <!--                    <item name="options" xsi:type="array">-->
+        <!--                        <item name="showsTime" xsi:type="boolean">true</item>-->
+        <!--                    </item>-->
+        <!--                    <item name="source" xsi:type="string">start_date</item>-->
+        <!--                </item>-->
+        <!--            </argument>-->
+        <!--            <settings>-->
+        <!--                <validation>-->
+        <!--                    <rule name="validate-date" xsi:type="boolean">true</rule>-->
+        <!--                </validation>-->
+        <!--                <dataType>timestamp</dataType>-->
+        <!--                <label translate="true">Start Date</label>-->
+        <!--                <visible>true</visible>-->
+        <!--                <dataScope>start_date</dataScope>-->
+        <!--            </settings>-->
+        <!--        </field>-->
+    </fieldset>
+</form>

@@ -3,4 +3,7 @@
     <head>
         <css src="Magenest_Movie::css/button.css"/>
     </head>
+    <body>
+        <referenceBlock name="sidebar.main" remove="true" />
+    </body>
 </page>

@@ -1,0 +1,25 @@
+"Order ID","Order Date","Customer Email","Product Name",SKU,Price,Quantity
+000000001,"2024-08-21 04:58:52",quang123@gmail.com,"Áo lenux-Black-L",lenux-2444-Black-L,15,2.0000
+000000001,"2024-08-21 04:58:52",quang123@gmail.com,"Áo lenux",lenux-2444-Blue-L,15,3.0000
+000000002,"2024-08-21 06:10:33",quang123@gamil.com,"Áo lenux",lenux-2444-Blue-XS,10,1.0000
+000000003,"2024-08-21 06:17:10",quang123@gamil.com,"Áo lenux",lenux-2444-Blue-XS,10,1.0000
+000000004,"2024-08-21 06:17:43",quang123@gamil.com,"Áo lenux",lenux-2444-Blue-XS,10,1.0000
+000000005,"2024-08-21 06:40:41",quang123@gamil.com,"Áo lenux",lenux-2444-Blue-L,15,1.0000
+000000006,"2024-08-21 06:46:54",quang123@gamil.com,"Áo lenux-Black-L",lenux-2444-Black-L,15,3.0000
+000000006,"2024-08-21 06:46:54",quang123@gamil.com,"Áo lenux-Black-XS",lenux-2444-Black-XS,10,4.0000
+000000007,"2024-08-21 07:49:47",quang123@gamil.com,"quan dai","quan dai",22,4.0000
+000000008,"2024-08-23 06:58:31",quang123@gmail.com,"Khuyen mai 3","Khuyen mai 3-1",50000,3.0000
+000000008-1,"2024-08-23 07:06:10",quang123@gmail.com,"Khuyen mai 3","Khuyen mai 3-1",50000,3.0000
+000000009,"2024-08-23 07:56:11",quang123@gmail.com,"Khuyen mai 3","Khuyen mai 3-1",50000,1.0000
+000000009,"2024-08-23 07:56:11",quang123@gmail.com,"Khuyen mai 1",Km-1,500000,1.0000
+000000009,"2024-08-23 07:56:11",quang123@gmail.com,"khuyen mai 2","khuyen mai 2",450000,1.0000
+000000010,"2024-08-23 10:13:09",quang12345@gmail.com,"quan dai","quan dai",22,6.0000
+000000011,"2024-08-26 02:58:09",quang12345@gmail.com,"Áo thun lexus","Áo thun lexus",22,1.0000
+000000012,"2024-08-26 06:21:32",quang12345@gmail.com,"Áo thun nam trên ghế Sofa","Áo thun nam trên ghế Sofa",90,10.0000
+000000013,"2024-08-26 06:23:58",quang12345@gmail.com,"Áo thun nam trên ghế Sofa","Áo thun nam trên ghế Sofa",90,1.0000
+000000014,"2024-08-26 07:05:26",quang12345@gmail.com,"Áo thun nam trên ghế Sofa","Áo thun nam trên ghế Sofa",100,1.0000
+000000015,"2024-09-04 07:20:11",quang12345@gmail.com,"Áo thun nam trên ghế Sofa BETTER","Áo thun nam trên ghế Sofa",200,2.0000
+4000000001,"2024-09-18 07:12:46",quang1707@gmail.com,"Bao hiem 0 dong","Bao hiem 0 dong",0,1.0000
+4000000002,"2024-09-18 07:24:36",quang1707@gmail.com,"Bao hiem 0 dong","Bao hiem 0 dong",0,1.0000
+4000000003,"2024-09-18 08:12:00",quang1707@gmail.com,"Bao hiem 0 dong","Bao hiem 0 dong",0,1.0000
+4000000004,"2024-09-18 08:14:04",quang1707@gmail.com,"Bao hiem 0 dong","Bao hiem 0 dong",0,1.0000
