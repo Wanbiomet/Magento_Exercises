@@ -43,7 +43,6 @@ class ItemPlugin
         \Magento\Checkout\Controller\Cart\Add $subject,
         \Closure $proceed
     ) {
-
         $productId = (int)$subject->getRequest()->getParam('product');
         if ($product = $this->initProduct($productId)) {
             if ($product->getTypeId() == Configurable::TYPE_CODE) {

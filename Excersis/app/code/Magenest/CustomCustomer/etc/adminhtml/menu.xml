@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!--Blog-->
+        <add
+            id="Magenest_CustomCustomer::blog"
+            title="Blog"
+            module="Magenest_CustomCustomer"
+            sortOrder="50"
+            resource="Magenest_CustomCustomer::blog"
+        />
+        <add
+            id="Magenest_CustomCustomer::blogItems"
+            title="Blog"
+            module="Magenest_CustomCustomer"
+            sortOrder="55"
+            parent="Magenest_CustomCustomer::blog"
+            action="blog/blog/"
+            resource="Magenest_CustomCustomer::blogItems"
+        />
+
+    </menu>
+</config>

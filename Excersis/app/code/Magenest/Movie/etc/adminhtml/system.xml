@@ -15,7 +15,7 @@
                 </field>
                 <field id="is_enabled" translate="label"
                        type="select" sortOrder="10" showInDefault="1"
-                       showInWebsite="1" showInStore="1">
+                       showInWebsite="1" showInStore="1"  canRestore="1">
                     <label><![CDATA[Yes/No_Field_<span style="color:red;">abcd</span>]]></label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
