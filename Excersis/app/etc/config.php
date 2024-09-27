@@ -355,6 +355,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magenest_CustomCustomer' => 1,
+        'Magenest_CustomKnockoutJs' => 1,
         'Magenest_Movie' => 1,
         'Mageplaza_Core' => 1,
         'Mageplaza_Smtp' => 1,

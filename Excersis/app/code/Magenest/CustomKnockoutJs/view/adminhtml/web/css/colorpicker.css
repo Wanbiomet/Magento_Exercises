@@ -1,0 +1,25 @@
+.color-swatch-item {
+    margin-bottom: 10px;
+}
+
+.color-swatch-item .color-picker {
+    width: 100px; /* Độ rộng cho input màu */
+    margin-right: 10px; /* Khoảng cách giữa các input */
+}
+
+.color-swatch-item .color-name {
+    width: 150px; /* Độ rộng cho input tên màu */
+    margin-right: 10px; /* Khoảng cách giữa các input */
+}
+
+.action.remove-color-swatch {
+    background-color: #f00; /* Màu nền cho nút xóa */
+    color: #fff; /* Màu chữ cho nút xóa */
+    border: none; /* Xóa viền */
+    padding: 5px 10px; /* Padding cho nút */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+}
+
+.action.remove-color-swatch:hover {
+    background-color: #c00; /* Màu nền khi hover */
+}

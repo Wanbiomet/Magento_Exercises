@@ -1,0 +1,38 @@
+<div id="promotion-popup" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-button" id="close-popup">&times;</span>
+        <h2>Promotions for You!</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Customer Group</th>
+                <th>Promotion</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($block->getPromotions() as $promotion): ?>
+                <tr>
+                    <td><?php echo $promotion['customer_group_code']; ?></td>
+                    <td><?php echo $promotion['promotion_text']; ?></td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript">
+    require(['jquery'], function ($) {
+        $(document).ready(function () {
+            // Show popup on homepage load
+            if ($('body').hasClass('cms-home')) {
+                $('#promotion-popup').show();
+            }
+
+            // Close popup
+            $('#close-popup').on('click', function () {
+                $('#promotion-popup').hide();
+            });
+        });
+    });
+</script>

@@ -1,0 +1,14 @@
+<div class="custom-cart-block">
+    <h2>Custom Delivery Information</h2>
+    <ul>
+        <?php foreach ($block->getQuoteItems() as $item): ?>
+            <li>
+                <strong><?php echo $item->getProduct()->getName(); ?></strong>
+                <br>
+                Delivery Time: <?php echo $item->getDeliveryTime() ?: 'Not specified'; ?>
+                <br>
+                Delivery Date: <?php echo $item->getDeliveryDate() ?: 'Not specified'; ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</div>

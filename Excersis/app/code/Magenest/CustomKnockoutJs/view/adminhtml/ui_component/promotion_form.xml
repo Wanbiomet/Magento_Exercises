@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">promotion_form.promotion_form_data_source</item>
+        </item>
+        <item name="label" xsi:type="string" translate="true">Promotion</item>
+        <item name="config" xsi:type="array">
+            <item name="dataScope" xsi:type="string">data</item>
+            <item name="namespace" xsi:type="string">promotion_form</item>
+        </item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+    </argument>
+    <settings>
+        <buttons>
+            <button name="save" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\SaveButton"/>
+<!--            &lt;!&ndash;            <button name="reset" class="Magenest\MyForm\Block\Adminhtml\Form\Edit\ResetButton"/>&ndash;&gt;-->
+<!--            <button name="delete" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\Edit\DeleteButton"/>-->
+<!--            <button name="back" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\Edit\BackButton"/>-->
+        </buttons>
+        <namespace>magenest_form</namespace>
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>promotion_form.promotion_form_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="promotion_form_data_source">
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <settings>
+            <submitUrl path="*/*/save"/>
+        </settings>
+        <dataProvider class="Magenest\CustomKnockoutJs\Model\System\PromotionProvider" name="promotion_form_data_source">
+            <settings>
+                <!-- param url name -->
+                <requestFieldName>id</requestFieldName>
+                <!-- keys id -->
+                <primaryFieldName>id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+
+    <fieldset name="promotion_form_fieldset">
+        <settings>
+            <collapsible>false</collapsible>
+            <label>Promotion Info</label>
+        </settings>
+        <field name="id" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">promotion_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>false</visible>
+                <dataScope>id</dataScope>
+                <label>Id</label>
+            </settings>
+        </field>
+        <field name="customer_group_id" formElement="select">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">promotion_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>select</dataType>
+                <visible>true</visible>
+                <dataScope>customer_group_id</dataScope>
+                <label>Customer Group</label>
+            </settings>
+            <formElements>
+                <select>
+                    <settings>
+                        <options class="Magenest\CustomKnockoutJs\Model\Source\CustomerGroupOptions"/>
+                        <caption translate="true">-- Please Select --</caption>
+                    </settings>
+                </select>
+            </formElements>
+        </field>
+        <field name="promotion_text" formElement="textarea">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">promotion_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>promotion_text</dataScope>
+                <label>Content</label>
+            </settings>
+        </field>
+    </fieldset>
+</form>

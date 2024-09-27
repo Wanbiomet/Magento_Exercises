@@ -4541,6 +4541,22 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
+    'promotion' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
+    'banner' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'movie' => 
     array (
       'currentPageDetection' => 
@@ -9523,6 +9539,20 @@
       ),
     ),
     'blog_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'promotion_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'banner_getCurPage___self' => 
     array (
       4 => 
       array (

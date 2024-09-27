@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1727417085;s:6:"expire";i:1727420685;s:4:"tags";s:47:"f13_BLOCK_HTML,f13_CAT_P_119,f13_CAT_P,f13_MAGE";}
+                <div class="swatch-opt-119"
+         data-role="swatch-option-119"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-119]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"145":{"id":"145","code":"size","label":"Size","options":[{"id":"166","label":"XS","products":["120","121"]},{"id":"167","label":"S","products":["122","123"]},{"id":"169","label":"L","products":["124","125"]}],"position":"0"},"93":{"id":"93","code":"color","label":"Color","options":[{"id":"49","label":"Black","products":["120","122","124"]},{"id":"50","label":"Blue","products":["121","123","125"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"120":{"baseOldPrice":{"amount":12000},"oldPrice":{"amount":12000},"basePrice":{"amount":12000},"finalPrice":{"amount":12000},"tierPrices":[],"msrpPrice":{"amount":0}},"121":{"baseOldPrice":{"amount":20000},"oldPrice":{"amount":20000},"basePrice":{"amount":20000},"finalPrice":{"amount":20000},"tierPrices":[],"msrpPrice":{"amount":0}},"122":{"baseOldPrice":{"amount":12000},"oldPrice":{"amount":12000},"basePrice":{"amount":12000},"finalPrice":{"amount":12000},"tierPrices":[],"msrpPrice":{"amount":0}},"123":{"baseOldPrice":{"amount":20000},"oldPrice":{"amount":20000},"basePrice":{"amount":20000},"finalPrice":{"amount":20000},"tierPrices":[],"msrpPrice":{"amount":0}},"124":{"baseOldPrice":{"amount":12000},"oldPrice":{"amount":12000},"basePrice":{"amount":12000},"finalPrice":{"amount":12000},"tierPrices":[],"msrpPrice":{"amount":0}},"125":{"baseOldPrice":{"amount":20000},"oldPrice":{"amount":20000},"basePrice":{"amount":20000},"finalPrice":{"amount":20000},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":12000},"oldPrice":{"amount":12000},"basePrice":{"amount":12000},"finalPrice":{"amount":12000}},"productId":"119","chooseText":"Choose an Option...","images":[],"index":{"120":{"145":"166","93":"49"},"121":{"145":"166","93":"50"},"122":{"145":"167","93":"49"},"123":{"145":"167","93":"50"},"124":{"145":"169","93":"49"},"125":{"145":"169","93":"50"}},"salable":{"145":{"166":["120","121"],"167":["122","123"],"169":["125"]},"93":{"49":["120","122"],"50":["121","123","125"]}},"canDisplayShowOutOfStockStatus":true,"channel":"website","salesChannelCode":"magenest_b2b","sku":{"120":"g\u00e0-XS-Black","121":"g\u00e0-XS-Blue","122":"g\u00e0-S-Black","123":"g\u00e0-S-Blue","124":"g\u00e0-L-Black","125":"g\u00e0-L-Blue"}},
+                    "jsonSwatchConfig": {"145":{"166":{"type":"0","value":"XS","label":"XS"},"167":{"type":"0","value":"S","label":"S"},"169":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"},"93":{"49":{"type":"1","value":"#000000","label":"Black"},"50":{"type":"1","value":"#1857f7","label":"Blue"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"1\"}"}},
+                    "mediaCallback": "https\u003A\u002F\u002Fexerciese.com\u002Fb2b_vn\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-119]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                        "prices": {"baseOldPrice":{"amount":12000},"oldPrice":{"amount":12000},"basePrice":{"amount":12000},"finalPrice":{"amount":12000}}                    }
+                }
+            }
+        }
+    </script>

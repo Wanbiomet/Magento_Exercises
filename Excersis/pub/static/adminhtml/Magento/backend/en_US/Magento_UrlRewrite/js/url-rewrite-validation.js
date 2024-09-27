@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-url-rewrite/view/adminhtml/web/js/url-rewrite-validation.js

@@ -1,1 +1,0 @@
-/var/www/html/Excersis/vendor/magento/module-theme/view/frontend/web/js/model/breadcrumb-list.js

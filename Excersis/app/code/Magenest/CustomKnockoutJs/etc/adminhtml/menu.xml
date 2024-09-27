@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Magenest_CustomKnockoutJs::Promotion"
+            title="Promotions"
+            module="Magenest_CustomKnockoutJs"
+            sortOrder="100"
+            parent="Magenest_Movie::movieP"
+            action="promotion/promotion/"
+            resource="Magenest_CustomKnockoutJs::Promotion"
+        />
+        <add
+            id="Magenest_CustomKnockoutJs::Banner"
+            title="Banners"
+            module="Magenest_CustomKnockoutJs"
+            sortOrder="110"
+            parent="Magenest_Movie::movieP"
+            action="promotion/banner/"
+            resource="Magenest_CustomKnockoutJs::Banner"
+        />
+    </menu>
+</config>

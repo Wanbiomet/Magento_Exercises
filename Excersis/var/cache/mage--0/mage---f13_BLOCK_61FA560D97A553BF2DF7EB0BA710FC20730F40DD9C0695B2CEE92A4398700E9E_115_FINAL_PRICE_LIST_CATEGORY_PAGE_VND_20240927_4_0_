@@ -1,0 +1,28 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1727417085;s:6:"expire";i:1727503485;s:4:"tags";s:47:"f13_BLOCK_HTML,f13_CAT_P_115,f13_CAT_P,f13_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="115" data-price-box="product-id-115">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="product-price-115"                data-price-amount="9980000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">9.980.000,00 ₫</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-115"                data-price-amount="10000000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">10.000.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>

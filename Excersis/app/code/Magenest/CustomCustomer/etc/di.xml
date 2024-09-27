@@ -21,10 +21,10 @@
     </type>
 
     <!--    Blog Api-->
-    <type name="Magenest\CustomeCustomer\Api\BlogRepositoryInterface">
+    <type name="Magenest\CustomCustomer\Api\BlogRepositoryInterface">
         <arguments>
-            <argument name="blogFactory" xsi:type="object">Magenest\CustomeCustomer\Model\BlogFactory</argument>
-            <argument name="blogResource" xsi:type="object">Magenest\CustomeCustomer\Model\ResourceModel\Blog</argument>
+            <argument name="blogFactory" xsi:type="object">Magenest\CustomCustomer\Model\BlogFactory</argument>
+            <argument name="blogResource" xsi:type="object">Magenest\CustomCustomer\Model\ResourceModel\Blog</argument>
         </arguments>
     </type>
 

@@ -1,0 +1,38 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="magenest_promotion" resource="default" engine="innodb" >
+        <column xsi:type="int" name="id" nullable="false" unsigned="true" identity="true" comment="ID"/>
+        <column xsi:type="int" name="customer_group_id" nullable="false" unsigned="true" comment="Customer Group ID"/>
+        <column xsi:type="text" name="promotion_text" nullable="false" comment="Promotion Text"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="CUSTOMER_ID_FK"
+                    table="magenest_promotion"
+                    column="customer_group_id"
+                    referenceTable="customer_group"
+                    referenceColumn="customer_group_id"
+                    onDelete="CASCADE"/>
+    </table>
+    <table name="quote_item" resource="default" >
+        <column name="delivery_time" xsi:type="text" nullable="true" comment="Delivery Time"/>
+        <column name="delivery_date" xsi:type="date" nullable="true" comment="Delivery Date"/>
+    </table>
+    <table name="sales_order_item" resource="default" >
+        <column name="delivery_time" xsi:type="text" nullable="true" comment="Delivery Time"/>
+        <column name="delivery_date" xsi:type="date" nullable="true" comment="Delivery Date"/>
+    </table>
+    <table name="magenest_banner" resource="default" engine="innodb" comment="Banner Table">
+        <column xsi:type="int" name="banner_id" nullable="false" identity="true" comment="Banner ID" unsigned="true"/>
+        <column xsi:type="varchar" name="name" nullable="false" length="255" comment="Banner Name"/>
+        <column xsi:type="smallint" name="enabled" nullable="false" default="1" comment="Is Enabled"/>
+        <column xsi:type="varchar" name="title" nullable="true" length="255" comment="Banner Title"/>
+        <column xsi:type="varchar" name="image" nullable="true" length="255" comment="Banner Image"/>
+        <column xsi:type="varchar" name="link" nullable="true" length="255" comment="Banner Link"/>
+        <column xsi:type="text" name="text" nullable="true" comment="Banner Additional Text"/>
+        <column xsi:type="timestamp" name="created_at" nullable="false" default="CURRENT_TIMESTAMP" comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at" nullable="false" default="CURRENT_TIMESTAMP" comment="Updated At"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="banner_id"/>
+        </constraint>
+    </table>
+</schema>
