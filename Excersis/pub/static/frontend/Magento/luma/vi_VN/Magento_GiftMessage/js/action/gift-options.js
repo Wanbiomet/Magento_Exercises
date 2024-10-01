@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-gift-message/view/frontend/web/js/action/gift-options.js

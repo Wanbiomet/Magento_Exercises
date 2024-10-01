@@ -1,0 +1,1 @@
+/var/www/html/Excersis/app/code/Magenest/Movie/view/frontend/web/js/button_clicked.js

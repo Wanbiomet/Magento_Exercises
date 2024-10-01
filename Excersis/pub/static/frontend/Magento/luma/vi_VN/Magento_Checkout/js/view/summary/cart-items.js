@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-checkout/view/frontend/web/js/view/summary/cart-items.js
