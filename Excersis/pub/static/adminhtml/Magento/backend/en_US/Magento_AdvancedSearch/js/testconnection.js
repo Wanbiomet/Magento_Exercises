@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-advanced-search/view/adminhtml/web/js/testconnection.js

@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-adobe-stock-admin-ui/view/adminhtml/web/js/connection.js

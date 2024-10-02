@@ -11,7 +11,7 @@
                     <item name="options" xsi:type="array">
                         <item name="showsTime" xsi:type="boolean">true</item>
                     </item>
-                    <item name="source" xsi:type="string">start_date</item>
+                    <item name="source" xsi:type="string">course_start_time</item>
                 </item>
             </argument>
             <settings>
@@ -21,7 +21,7 @@
                 <dataType>timestamp</dataType>
                 <label translate="true">Start Date</label>
                 <visible>true</visible>
-                <dataScope>start_date</dataScope>
+                <dataScope>course_start_time</dataScope>
             </settings>
         </field>
         <field name="course_end_time" formElement="date" component="Magenest_Movie/js/calendar-mixin">
@@ -30,7 +30,7 @@
                     <item name="options" xsi:type="array">
                         <item name="showsTime" xsi:type="boolean">true</item>
                     </item>
-                    <item name="source" xsi:type="string">start_date</item>
+                    <item name="source" xsi:type="string">course_end_time</item>
                 </item>
             </argument>
             <settings>
@@ -40,7 +40,7 @@
                 <dataType>timestamp</dataType>
                 <label translate="true">End Date</label>
                 <visible>true</visible>
-                <dataScope>end_date</dataScope>
+                <dataScope>course_end_time</dataScope>
             </settings>
         </field>
 
