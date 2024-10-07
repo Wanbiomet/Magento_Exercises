@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/theme-adminhtml-backend/web/js/theme.js

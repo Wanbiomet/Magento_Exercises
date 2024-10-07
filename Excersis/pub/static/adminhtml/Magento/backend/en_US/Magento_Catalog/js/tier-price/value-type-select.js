@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-catalog/view/adminhtml/web/js/tier-price/value-type-select.js

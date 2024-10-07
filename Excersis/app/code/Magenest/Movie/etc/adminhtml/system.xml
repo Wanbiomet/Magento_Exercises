@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magenest" translate="label" sortOrder="500">
+            <label>Magenest</label>
+        </tab>
+        <section id="movie" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Movie</label>
+            <tab>magenest</tab>
+            <resource>Magento_Backend::admin</resource>
+            <group id="magenest_movie" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Movie Settings</label>
+                <field id="movie_field" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Text Field</label>
+                </field>
+                <field id="is_enabled" translate="label"
+                       type="select" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1"  canRestore="1">
+                    <label><![CDATA[Yes/No_Field_<span style="color:red;">abcd</span>]]></label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="custome_select" translate="label" type="select"
+                       sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custome Select</label>
+                    <source_model>Magenest\Movie\Model\System\Config\Source\Options</source_model>
+                </field>
+                <field id="movie_count" translate="label" type="text"
+                       sortOrder="30" showInDefault="1" showInWebsite="1"
+                       showInStore="1" >
+                    <label>Rows in table “magenest_movie"</label>
+                    <backend_model>Magenest\Movie\Model\System\Config\Source\MovieCount</backend_model>
+                    <frontend_model>Magenest\Movie\Block\System\Config\Form\Field\Disable</frontend_model>
+                </field>
+                <field id="actor_count" translate="label" type="text"
+                       sortOrder="30" showInDefault="1" showInWebsite="1"
+                       showInStore="1" >
+                    <label>Rows in table “magenest_actor”</label>
+                    <backend_model>Magenest\Movie\Model\System\Config\Source\ActorCount</backend_model>
+                    <frontend_model>Magenest\Movie\Block\System\Config\Form\Field\Disable</frontend_model>
+                    <depends>
+                        <field id="custome_select">1</field>
+                    </depends>
+                </field>
+                <field id="button_reload" translate="label" type="button"
+                       sortOrder="30" showInDefault="1" showInWebsite="1"
+                       showInStore="1" >
+                    <label>Button Field</label>
+                    <frontend_model>Magenest\Movie\Block\System\Config\Frontend\Button</frontend_model>
+                </field>
+            </group>
+        </section>
+        <section id="customer_group_section" translate="label" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Customer Group</label>
+            <tab>magenest</tab>
+            <resource>Magento_Backend::admin</resource>
+            <group id="customer_group" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Custom Customer</label>
+                <field id="customer_group_name" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Customer Group</label>
+                    <source_model>Magenest\Movie\Model\System\Config\Source\CustomerGroupName</source_model>
+                </field>
+                <field id="access_time" translate="label"
+                       type="date" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Access Time</label>
+                    <frontend_model>Magenest\Movie\Block\Adminhtml\DateField</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

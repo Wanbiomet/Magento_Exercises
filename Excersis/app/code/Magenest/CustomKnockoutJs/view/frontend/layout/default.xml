@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Magenest_CustomKnockoutJs::css/modal.css"/>
+    </head>
+    <body>
+        <referenceBlock name="header.panel">
+            <block class="Magenest\CustomKnockoutJs\Block\ColorLink" name="custom-link" template="Magenest_CustomKnockoutJs::color_dropdown.phtml"/>
+        </referenceBlock>
+        <referenceContainer name="sidebar.additional">
+            <block class="Magenest\CustomKnockoutJs\Block\Banner" name="right.banner" template="Magenest_CustomKnockoutJs::banner.phtml">
+                <arguments>
+                    <argument name="bannerId" xsi:type="number">1</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Magenest\CustomKnockoutJs\Block\Promotion" name="promotional_popup" template="Magenest_CustomKnockoutJs::popup.phtml"/>
+        </referenceContainer>
+    </body>
+
+</page>

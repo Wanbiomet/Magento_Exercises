@@ -1,0 +1,32 @@
+<?php
+$deliveryTimeOptions = [
+    'same_day' => 'Same Day Delivery',
+    'customer_selected' => 'Customer Selected Date'
+];
+?>
+
+<div class="delivery-time">
+    <label for="delivery_time">Select Delivery Time:</label>
+    <select name="delivery_time" id="delivery_time" class="select delivery-time-select">
+        <option value="">-- Select Delivery Time --</option>
+        <?php foreach ($deliveryTimeOptions as $value => $label): ?>
+            <option value="<?php echo $value; ?>"><?php echo $label; ?></option>
+        <?php endforeach; ?>
+    </select>
+</div>
+<div id="customer-selected-date" style="display:none;">
+    <label for="delivery_date">Choose Delivery Date:</label>
+    <input type="date" name="delivery_date" id="delivery_date" />
+</div>
+
+<script type="text/javascript">
+    require(['jquery'], function ($) {
+        $('#delivery_time').change(function () {
+            if ($(this).val() === 'customer_selected') {
+                $('#customer-selected-date').show();
+            } else {
+                $('#customer-selected-date').hide();
+            }
+        });
+    });
+</script>

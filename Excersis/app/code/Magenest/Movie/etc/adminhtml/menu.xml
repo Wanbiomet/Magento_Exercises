@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+<!--        Movie-->
+        <add
+            id="Magenest_Movie::movieP"
+            title="Movie"
+            module="Magenest_Movie"
+            sortOrder="50"
+            resource="Magenest_Movie::movieP"
+        />
+        <add
+            id="Magenest_Movie::movieC"
+            title="Movie"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::movieP"
+            action="movie/movie/"
+            resource="Magenest_Movie::movieC"
+        />
+        <add
+            id="Magenest_Movie::director"
+            title="Director"
+            module="Magenest_Movie"
+            sortOrder="60"
+            parent="Magenest_Movie::movieP"
+            action="movie/director/"
+            resource="Magenest_Movie::director"
+        />
+        <add
+            id="Magenest_Movie::actor"
+            title="Actor"
+            module="Magenest_Movie"
+            sortOrder="60"
+            parent="Magenest_Movie::movieP"
+            action="movie/actor/"
+            resource="Magenest_Movie::actor"
+        />
+<!--        NewPage-->
+        <add
+            id="Magenest_Movie::newpage"
+            title="NewPage Menu"
+            module="Magenest_Movie"
+            sortOrder="65"
+            resource="Magenest_Movie::newpage"
+        />
+        //Section page 1
+        <add
+            id="Magenest_Movie::newpage1"
+            title="Menu 1"
+            module="Magenest_Movie"
+            parent="Magenest_Movie::newpage"
+            sortOrder="70"
+            resource="Magenest_Movie::newpage1"
+        />
+        <add
+            id="Magenest_Movie::newpage1_1"
+            title="Menu 1-1"
+            module="Magenest_Movie"
+            parent="Magenest_Movie::newpage1"
+            sortOrder="70"
+            action="newpage/newpage/"
+            resource="Magenest_Movie::newpage1_1"
+        />
+        //Section page 2
+        <add
+            id="Magenest_Movie::newpage2"
+            title="Menu 2"
+            module="Magenest_Movie"
+            parent="Magenest_Movie::newpage"
+            sortOrder="80"
+            resource="Magenest_Movie::newpage2"
+        />
+        <add
+            id="Magenest_Movie::newpage2_2"
+            title="Menu 2-2"
+            module="Magenest_Movie"
+            parent="Magenest_Movie::newpage2"
+            sortOrder="70"
+            resource="Magenest_Movie::newpage2_2"
+        />
+    </menu>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_submit_all_after">
+        <observer name="auto_invoice_zero_order" instance="Magenest\Movie\Observer\AutoInvoiceZeroOrder" />
+    </event>
+    <event name="checkout_onepage_controller_success_action">
+        <observer name="send_course_purchase_email" instance="Magenest\Movie\Observer\SendCoursePurchaseEmail" />
+    </event>
+</config>

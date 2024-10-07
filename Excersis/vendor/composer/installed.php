@@ -83,9 +83,9 @@
             'dev_requirement' => false,
         ),
         'aws/aws-sdk-php' => array(
-            'pretty_version' => '3.321.5',
-            'version' => '3.321.5.0',
-            'reference' => '8cd434985ca76335c5de9d5cf76f42c380252dd2',
+            'pretty_version' => '3.321.6',
+            'version' => '3.321.6.0',
+            'reference' => '3dc53a79677dd1f0e682dfc05f9815901ec7bf58',
             'type' => 'library',
             'install_path' => __DIR__ . '/../aws/aws-sdk-php',
             'aliases' => array(),
@@ -4426,6 +4426,24 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'mageplaza/module-core' => array(
+            'pretty_version' => '1.5.8',
+            'version' => '1.5.8.0',
+            'reference' => '403e02fdbde598adc0e2822d5d49c912b8115df0',
+            'type' => 'magento2-module',
+            'install_path' => __DIR__ . '/../mageplaza/module-core',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mageplaza/module-smtp' => array(
+            'pretty_version' => '4.7.13',
+            'version' => '4.7.13.0',
+            'reference' => '3278b49848ad8a1a9f0298d3c9e5e78d742670a8',
+            'type' => 'magento2-module',
+            'install_path' => __DIR__ . '/../mageplaza/module-smtp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'monolog/monolog' => array(
             'pretty_version' => '2.9.3',
             'version' => '2.9.3.0',
@@ -4867,8 +4885,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psy/psysh' => array(

@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-marketplace/view/adminhtml/web/default.js

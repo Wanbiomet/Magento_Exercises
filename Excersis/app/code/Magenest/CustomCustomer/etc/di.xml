@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+        <plugin name="your_checkout_layout_processor" type="Magenest\CustomCustomer\Plugin\Block\Checkout\LayoutProcessorPlugin"/>
+    </type>
+    <!-- Blog -->
+    <virtualType name="blog" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_blog</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\CustomCustomer\Model\ResourceModel\Blog</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_blog_listing_data_source" xsi:type="string">blog</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <!--    Blog Api-->
+    <type name="Magenest\CustomCustomer\Api\BlogRepositoryInterface">
+        <arguments>
+            <argument name="blogFactory" xsi:type="object">Magenest\CustomCustomer\Model\BlogFactory</argument>
+            <argument name="blogResource" xsi:type="object">Magenest\CustomCustomer\Model\ResourceModel\Blog</argument>
+        </arguments>
+    </type>
+
+</config>

@@ -1,0 +1,15 @@
+<!-- app/code/Magenest/CustomKnockoutJs/view/frontend/templates/banner.phtml -->
+<div class="banner-container">
+    <?php $banner = $this->getBannerById(); // Gọi phương thức với bannerId ?>
+    <?php if ($banner): ?>
+        <div class="banner-item">
+            <a href="<?php echo $banner['url']; ?>">
+                <img src="<?php echo $banner['url']; ?>" alt="<?php echo $banner['name']; ?>" />
+            </a>
+        </div>
+    <?php else: ?>
+        <div class="banner-item">
+            <p><?php echo __('No banner found.'); ?></p>
+        </div>
+    <?php endif; ?>
+</div>

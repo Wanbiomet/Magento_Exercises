@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-page-builder/view/adminhtml/web/js/form/element/wysiwyg.js

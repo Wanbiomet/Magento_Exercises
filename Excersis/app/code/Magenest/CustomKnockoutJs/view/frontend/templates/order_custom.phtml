@@ -1,0 +1,13 @@
+<h2>Delivery Information</h2>
+<?php if ($deliveryInfo = $block->getQuoteItems()): ?>
+    <ul>
+        <?php foreach ($deliveryInfo as $info): ?>
+            <li>
+                Delivery Time: <?= $info['delivery_time'] ? htmlspecialchars($info['delivery_time']) : 'N/A' ?> <br>
+                Delivery Date: <?= $info['delivery_date'] ? htmlspecialchars($info['delivery_date']) : 'N/A' ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+    <p>No delivery information available.</p>
+<?php endif; ?>

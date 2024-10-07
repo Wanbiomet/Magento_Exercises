@@ -1,0 +1,37 @@
+$this->moduleDataSetup->getConnection()->startSetup();
+        $eavSetup = $this->eavSetupFactory->create();
+
+
+        $eavSetup->addAttribute(
+            \Magento\Customer\Model\Customer::ENTITY,
+            'avatar',
+            [
+                'type' => 'text',
+                'label' => 'Avatar Upload',
+                'input' => 'file',
+                'required' => true,
+                'visible' => 1,
+                'user_defined' => 1,
+                'sort_order' => 0,
+                'position' => 0,
+                'system' => 0
+            ]
+        );
+
+        $attributeSetId = $eavSetup->getDefaultAttributeSetId(Customer::ENTITY);
+        $attributeGroupId = $eavSetup->getDefaultAttributeGroupId(Customer::ENTITY);
+
+        $attribute = $this->eavConfig->getAttribute(Customer::ENTITY, 'avatar');
+        $attribute->setData('attribute_set_id', $attributeSetId);
+        $attribute->setData('attribute_group_id', $attributeGroupId);
+
+        $attribute->setData('used_in_forms', [
+            'adminhtml_customer',
+            'adminhtml_checkout',
+            'customer_account_create',
+            'customer_account_edit'
+        ]);
+
+        $this->attributeResource->save($attribute);
+
+        $this->moduleDataSetup->getConnection()->endSetup();

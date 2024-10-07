@@ -1,0 +1,85 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <!-- Movie -->
+    <virtualType name="movie" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_movie</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\Movie\Model\ResourceModel\Movie</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_movie_listing_data_source" xsi:type="string">movie</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="movie_new_form_data_source" xsi:type="string">Magenest\Movie\Model\System\Config\MovieProvider</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <!-- Director -->
+    <virtualType name="director" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_director</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\Movie\Model\ResourceModel\Director</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_director_listing_data_source" xsi:type="string">director</item>
+            </argument>
+        </arguments>
+    </type>
+    <!-- Actor -->
+    <virtualType name="actor" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_actor</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\Movie\Model\ResourceModel\Actor</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_actor_listing_data_source" xsi:type="string">actor</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <!-- Movie && Actor -->
+    <virtualType name="movie_actor" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_movie</argument>
+            <argument name="eventPrefix" xsi:type="string">magenest_movie__grid_collection</argument>
+            <argument name="eventObject" xsi:type="string">magenest_movie_collection</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\Movie\Model\ResourceModel\Movie</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_movie_actor_listing_data_source" xsi:type="string">movie_actor</item>
+            </argument>
+        </arguments>
+    </type>
+    <!-- Bind DirectorOptions to UiComponent -->
+    <type name="Magenest\Movie\Model\System\Config\Source\DirectorOptions">
+        <arguments>
+            <argument name="collectionFactory" xsi:type="array">Magenest\Movie\Model\ResourceModel\Director\CollectionFactory</argument>
+        </arguments>
+    </type>
+
+    <!-- Plugin change name of child product -->
+    <type name="Magento\Checkout\Controller\Cart\Add">
+        <plugin name="magenest_movie::miniCartName" type="Magenest\Movie\Plugin\ItemPlugin" sortOrder="10" />
+    </type>
+
+</config>

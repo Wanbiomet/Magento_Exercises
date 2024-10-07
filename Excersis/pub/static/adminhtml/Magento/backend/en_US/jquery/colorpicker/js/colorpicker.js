@@ -1,0 +1,1 @@
+/var/www/html/Excersis/lib/web/jquery/colorpicker/js/colorpicker.js

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_cart_product_add_after">
+        <observer name="add_delivery_time_to_cart" instance="Magenest\CustomKnockoutJs\Observer\AddDeliveryTime" />
+    </event>
+    <event name="sales_order_place_after">
+        <observer name="add_delivery_attributes_to_order" instance="Magenest\CustomKnockoutJs\Observer\AddDeliveryAttributesToOrder"/>
+    </event>
+</config>

@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-swatches/view/base/web/js/swatch-renderer.js

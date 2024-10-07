@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">magenest_banner_form.magenest_banner_form_data_source</item>
+        </item>
+        <item name="label" xsi:type="string" translate="true">Banner</item>
+        <item name="config" xsi:type="array">
+            <item name="dataScope" xsi:type="string">data</item>
+            <item name="namespace" xsi:type="string">magenest_banner_form</item>
+        </item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+    </argument>
+    <settings>
+        <buttons>
+            <button name="save" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\Banner\SaveButton"/>
+            <!--            &lt;!&ndash;            <button name="reset" class="Magenest\MyForm\Block\Adminhtml\Form\Edit\ResetButton"/>&ndash;&gt;-->
+            <!--            <button name="delete" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\Edit\DeleteButton"/>-->
+            <!--            <button name="back" class="Magenest\CustomKnockoutJs\Block\Adminhtml\Form\Edit\BackButton"/>-->
+        </buttons>
+        <namespace>magenest_form</namespace>
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>magenest_banner_form.magenest_banner_form_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="magenest_banner_form_data_source">
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <settings>
+            <submitUrl path="*/*/save"/>
+        </settings>
+        <dataProvider class="Magenest\CustomKnockoutJs\Model\System\BannerProvider" name="magenest_banner_form_data_source">
+            <settings>
+                <!-- param url name -->
+                <requestFieldName>id</requestFieldName>
+                <!-- keys id -->
+                <primaryFieldName>banner_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+
+    <fieldset name="banner_form_fieldset">
+        <settings>
+            <collapsible>false</collapsible>
+            <label>Banner Info</label>
+        </settings>
+        <field name="banner_id" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">banner_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>false</visible>
+                <dataScope>id</dataScope>
+                <label>Id</label>
+            </settings>
+        </field>
+
+        <field name="name" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">banner_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>name</dataScope>
+                <label>Name</label>
+            </settings>
+        </field>
+
+        <field name="enabled" formElement="checkbox">
+            <settings>
+                <label translate="true">Enabled</label>
+                <tooltip>
+                    <description translate="true">This is my checkbox's description</description>
+                </tooltip>
+            </settings>
+            <formElements>
+                <checkbox>
+                    <settings>
+                        <prefer>toggle</prefer>
+                        <valueMap>
+                            <map name="false" xsi:type="boolean">0</map>
+                            <map name="true" xsi:type="boolean">1</map>
+                        </valueMap>
+                    </settings>
+                </checkbox>
+            </formElements>
+        </field>
+
+        <field name="title" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">banner_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>title</dataScope>
+                <label>Title</label>
+            </settings>
+        </field>
+
+        <field name="image">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="label" xsi:type="string" translate="true">Banner Image</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="allowedExtensions" xsi:type="string">jpg jpeg png</item>
+                    <item name="maxFileSize" xsi:type="number">2097152</item>
+                    <item name="formElement" xsi:type="string">imageUploader</item>
+                        <item name="previewTmpl" xsi:type="string">ui/form/element/uploader/preview</item>
+                    <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+                    <item name="dataScope" xsi:type="string">image</item>
+                    <item name="sortOrder" xsi:type="number">40</item>
+                    <item name="uploaderConfig" xsi:type="array">
+                        <item name="url" xsi:type="url" path="promotion/banner/upload"/> <!-- Action URL for upload -->
+                    </item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="link" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">banner_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>link</dataScope>
+                <label>Link</label>
+            </settings>
+        </field>
+
+        <field name="text" formElement="textarea">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">banner_form</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>true</visible>
+                <dataScope>text</dataScope>
+                <label>Text</label>
+            </settings>
+        </field>
+    </fieldset>
+</form>

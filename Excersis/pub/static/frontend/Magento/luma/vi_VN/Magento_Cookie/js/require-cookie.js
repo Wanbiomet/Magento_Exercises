@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/magento/module-cookie/view/frontend/web/js/require-cookie.js

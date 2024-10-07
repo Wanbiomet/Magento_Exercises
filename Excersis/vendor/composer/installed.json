@@ -403,17 +403,17 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.321.5",
-            "version_normalized": "3.321.5.0",
+            "version": "3.321.6",
+            "version_normalized": "3.321.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8cd434985ca76335c5de9d5cf76f42c380252dd2"
+                "reference": "3dc53a79677dd1f0e682dfc05f9815901ec7bf58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8cd434985ca76335c5de9d5cf76f42c380252dd2",
-                "reference": "8cd434985ca76335c5de9d5cf76f42c380252dd2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3dc53a79677dd1f0e682dfc05f9815901ec7bf58",
+                "reference": "3dc53a79677dd1f0e682dfc05f9815901ec7bf58",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +454,7 @@
                 "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
                 "ext-sockets": "To use client-side monitoring"
             },
-            "time": "2024-09-05T18:04:31+00:00",
+            "time": "2024-09-06T18:06:38+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -498,7 +498,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.6"
             },
             "install-path": "../aws/aws-sdk-php"
         },
@@ -21743,6 +21743,117 @@
                 "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.3"
             },
             "install-path": "../magento/zend-pdf"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.5.8",
+            "version_normalized": "1.5.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "403e02fdbde598adc0e2822d5d49c912b8115df0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/403e02fdbde598adc0e2822d5d49c912b8115df0",
+                "reference": "403e02fdbde598adc0e2822d5d49c912b8115df0",
+                "shasum": ""
+            },
+            "time": "2024-08-14T10:10:10+00:00",
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "source": "https://github.com/mageplaza/module-core/tree/v1.5.8"
+            },
+            "install-path": "../mageplaza/module-core"
+        },
+        {
+            "name": "mageplaza/module-smtp",
+            "version": "4.7.13",
+            "version_normalized": "4.7.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "3278b49848ad8a1a9f0298d3c9e5e78d742670a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/3278b49848ad8a1a9f0298d3c9e5e78d742670a8",
+                "reference": "3278b49848ad8a1a9f0298d3c9e5e78d742670a8",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.5.7"
+            },
+            "time": "2024-08-19T09:45:37+00:00",
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Smtp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+            "keywords": [
+                "Facebook ADS",
+                "Marketing Automation",
+                "Messenger",
+                "email",
+                "email marketing",
+                "email settings",
+                "facebook",
+                "gmail smtp",
+                "google ads",
+                "magento 2",
+                "magento 2 smtp",
+                "magento smtp",
+                "mageplaza",
+                "sms",
+                "sms marketing",
+                "smtp",
+                "web push notification",
+                "whatsapp"
+            ],
+            "support": {
+                "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.13"
+            },
+            "install-path": "../mageplaza/module-smtp"
         },
         {
             "name": "monolog/monolog",

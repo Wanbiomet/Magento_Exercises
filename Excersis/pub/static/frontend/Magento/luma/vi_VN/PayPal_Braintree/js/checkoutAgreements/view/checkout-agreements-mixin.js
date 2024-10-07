@@ -1,0 +1,1 @@
+/var/www/html/Excersis/vendor/paypal/module-braintree-core/view/frontend/web/js/checkoutAgreements/view/checkout-agreements-mixin.js

@@ -1,0 +1,18 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+<table name="customer_group" resource="default" engine="innodb" >
+    <column xsi:type="datetime" name="course_access_start" nullable="false" comment="Course Access Start"/>
+    <column xsi:type="datetime" name="course_access_end" nullable="false" comment="Course Access End"/>
+</table>
+<table name="magenest_course" resource="default" engine="innodb" >
+    <column xsi:type="int" name="course_id" unsigned="true" nullable="false" identity="true" comment="Course Id"/>
+    <column xsi:type="int" name="product_id" unsigned="true" nullable="false" comment="Product Id"/>
+    <column xsi:type="text" name="link"  nullable="true" comment="Course Link"/>
+    <column xsi:type="varchar" name="document"  nullable="true" comment="Course Document"/>
+    <constraint xsi:type="primary" referenceId="PRIMARY">
+        <column name="course_id"/>
+    </constraint>
+
+    <constraint xsi:type="foreign" referenceId="MAGENEST_COURSE_ID_PRODUCT_ENTITY_ID" table="magenest_course" column="product_id" referenceTable="catalog_product_entity" referenceColumn="entity_id" onDelete="CASCADE"/>
+
+</table>
+</schema>
